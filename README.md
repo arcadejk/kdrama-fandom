@@ -4,6 +4,7 @@
 The primary goal of "K-Drama React Fandom" is to foster a supportive and lively environment where fans can share their love for Korean dramas, exchange their thoughts on recent releases, and connect with like-minded individuals. By enabling users to participate in virtual reactions and discussions, the website aims to create a sense of community and provide an avenue for fans to express their enthusiasm for Korean cinema. Additionally, "K-Drama React Fandom" will feature resources such as classifications, recommendations, news, forums, events, synopsis and possibilities of collaboration.
 
 
+![responsive 01](https://github.com/arcadejk/kdrama-fandom/assets/157130011/6f77d1b3-a30d-4152-8bbd-6c95c02a4411)
 
 
 
