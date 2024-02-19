@@ -87,6 +87,8 @@ main {
 /* Footer */
 #footer-elements {
 	text-align: center;
+  right: 50px;
+  left: 10px;
   padding: 1em;
   width: 100%;
   bottom: 0;
@@ -100,6 +102,6 @@ main {
 
 footer i {
   font-size: 140%;
-  padding: 5%;
+  padding: 2%;
   color: #3a3a3a;
 }
