@@ -11,6 +11,7 @@
   /* Header */
 header {
   background-color: #be3144;
+  color: #ffffff;
   padding: 1rem 1rem;
   position: fixed;
   top: 0;
@@ -39,6 +40,7 @@ header a {
     position: fixed;
     width: 100%;
     background: rgba(0, 0, 255, 0);
+    color: #ffffff;
     padding-right: 3rem;
     font-size: 25px;
     font-weight: bold; 
@@ -74,7 +76,7 @@ body {
 main {
   /* Expand the main element to shift the footer downwards */
   flex: 1 0 auto;
-  margin-top: 80px;
+  margin-top: 56px;
   margin-bottom: 600px;
   padding: auto;
   position: relative;
@@ -84,11 +86,33 @@ main {
   flex-grow: 1;
 }
 
+/* Enable horizontal scrolling when the content overflows the container horizontally */
+.scroll-container {
+  width: 300px;
+  height: 200px;
+  overflow-x: auto;
+  white-space: wrap;
+  border: 1px solid #ccc;
+}
+
+
+/* Arrange items horizontally */
+.scroll-item {
+  display: inline-block;
+  width: 100px;
+  height: 100px;
+  background-color: #f0f0f0;
+  margin-right: 10px;
+}
+
+/* Adjust width to fit content */
+.scroll-content {
+  width: 1000px; 
+}
+
 /* Footer */
 #footer-elements {
 	text-align: center;
-  right: 50px;
-  left: 10px;
   padding: 1em;
   width: 100%;
   bottom: 0;
@@ -98,10 +122,23 @@ main {
   justify-content: space-evenly;
   list-style-type: none;
   position: fixed;
+  background-color: rgb(223, 162, 223);
+  font-size: 20px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
 }
 
-footer i {
+#footer-elements i {
   font-size: 140%;
   padding: 2%;
   color: #3a3a3a;
+}
+
+#footer-elements p>a {
+  text-decoration: none;
+  color: #3a3a3a;
+}
+
+#footer-elements a:hover {
+  background: rgb(228, 181, 215);
 }
