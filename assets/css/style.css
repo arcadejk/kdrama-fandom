@@ -88,26 +88,102 @@ main {
 
 /* Enable horizontal scrolling when the content overflows the container horizontally */
 .scroll-container {
-  width: 300px;
-  height: 200px;
+  width: 1450px;
+  height: 400px;
   overflow-x: auto;
-  white-space: wrap;
+  white-space: nowrap;
   border: 1px solid #ccc;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  align-items: baseline;
+  gap: 15px;
 }
 
 
 /* Arrange items horizontally */
 .scroll-item {
   display: inline-block;
-  width: 100px;
+  width: 200px;
   height: 100px;
-  background-color: #f0f0f0;
+  border: 1px solid #000;
   margin-right: 10px;
+  text-align: center;
+  flex-basis: 120px;
+  align-self: center;
 }
 
 /* Adjust width to fit content */
 .scroll-content {
-  width: 1000px; 
+  width: 2000px; 
+}
+
+/* ordering the actors photos */
+#actor1 {
+  order: 1;
+  width: 200px;
+  height: 300px;
+  background: url('../actors/Lee dong-wook.webp') no-repeat top center / cover;
+}
+#actor2 {
+  order: 2;
+  width: 200px;
+  height: 150px; 
+  background-color: #a4be31;
+}
+#actor3 {
+  order: 3;
+  width: 200px;
+  height: 150px; 
+  background-color: #5731be;
+}
+#actor4 {
+  order: 4;
+  width: 200px;
+  height: 150px;
+  background-color: #be3177;
+}
+#actor5 {
+  order: 5;
+  width: 200px;
+  height: 150px; 
+}
+#actor6 {
+  order: 6; 
+}
+#actor7 {
+  order: 7;
+  width: 200px;
+  height: 150px;
+}
+#actor8 {
+  order: 8;
+  width: 200px;
+  height: 150px;
+}
+#actor9 {
+  order: 9;
+  width: 200px;
+  height: 150px;
+}
+#actor10 {
+  order: 10;
+  width: 200px;
+  height: 150px;
+}
+#actor11 {
+  order: 11;
+  width: 200px;
+  height: 150px;
+}
+#actor12 {
+  order: 12;
+  width: 200px;
+  height: 150px;
+}
+
+.hidden-element {
+  text-decoration: none;
 }
 
 /* Footer */
