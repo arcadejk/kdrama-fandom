@@ -80,110 +80,162 @@ main {
   margin-bottom: 600px;
   padding: auto;
   position: relative;
-  z-index: 99;
   display: flex;
   flex-direction: column;
   flex-grow: 1;
 }
 
-/* Enable horizontal scrolling when the content overflows the container horizontally */
-.scroll-container {
-  width: 1450px;
-  height: 400px;
-  overflow-x: auto;
-  white-space: nowrap;
-  border: 1px solid #ccc;
+/* Styling the welcome-text-article */
+  .welcome-text {
+    font-family: 'Baskervville', serif;
+    color: linen;
+    background-color: rgb(20, 30, 40);
+    padding-left: 25vh;
+    padding-right: 25vh;
+    padding-top: 10px;
+    padding-bottom: 10px;
+  }
+  
+  .welcome-text h3 {
+    padding-top: 30px;
+    padding-bottom: 10px;
+  } 
+
+  #second-p {
+    padding-top: 30px;
+  }
+
+  .welcome-video {
+    display: flex;
+    justify-content: center;
+    padding: 50px;
+  }
+
+  .welcome-text-article {
+  grid-column: 2 / 3;
+  font-size: 1.4rem;
+  letter-spacing: 0.6px;
+  column-width: 25rem;
+  text-align: justify;
+  }
+
+  .welcome-text-title {
+    text-align: center;
+    color: orangered;
+    font-size: 3rem;
+    padding-top: 25px;
+  }
+  
+  .welcome-text-subtitle {
+    font-size: 2rem;
+    color: orangered;
+    text-align: center;
+    padding-bottom: 25px;
+  }
+
+  .first-paragraph::first-letter {
+    font-size: 6rem;
+    color: orangered;
+    float: left;
+    margin-right: 1rem;
+  }
+
+  .list-movies ul {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    column-gap: 3rem;
+    margin-bottom: 3rem;
+    font-size: 18px;
+  }
+  
+  .list-movies h3 {
+    text-align: center;
+    color: orangered;
+    font-size: 2.3rem;
+    padding-top: 25px;
+  }
+
+  .list-movies-first-p {
+    font-size: 1rem;
+    text-align: center;
+  }
+
+  .lists {
+    list-style-type: none;
+    margin-top: 2rem;
+  }
+  
+  .lists li {
+    margin-bottom: 1.5rem;
+  }
+  
+  .list-title, .list-subtitle {
+    color: orangered;
+  }
+
+  .last-welcome-text {
+    
+  }
+
+
+
+/* Styling the actors photos */
+.actors {
+  display: inline-block;
   display: flex;
   flex-direction: row;
   flex-wrap: nowrap;
-  align-items: baseline;
+  margin: 75px;
   gap: 15px;
 }
 
-
-/* Arrange items horizontally */
-.scroll-item {
-  display: inline-block;
-  width: 200px;
-  height: 100px;
-  border: 1px solid #000;
-  margin-right: 10px;
-  text-align: center;
-  flex-basis: 120px;
-  align-self: center;
+#actors {
+    font-family: 'Raleway', sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-size: 30px;
+    text-align: center;
+    color: #252525;
+    margin-top: 10px;
+    padding-top: 40px;
+    font-weight: bold;
 }
 
-/* Adjust width to fit content */
-.scroll-content {
-  width: 2000px; 
-}
-
-/* ordering the actors photos */
 #actor1 {
   order: 1;
   width: 200px;
   height: 300px;
-  background: url('../actors/Lee dong-wook.webp') no-repeat top center / cover;
+  background: url('../actors/Kim Sang Beom.webp') no-repeat top center / cover;
 }
 #actor2 {
   order: 2;
   width: 200px;
-  height: 150px; 
-  background-color: #a4be31;
+  height: 300px;
+  background: url('../actors/Kim Yoo-Yung.webp') no-repeat top center / cover; 
 }
 #actor3 {
   order: 3;
   width: 200px;
-  height: 150px; 
-  background-color: #5731be;
+  height: 300px;
+  background: url('../actors/Lee dong-wook.webp') no-repeat top center / cover; 
 }
 #actor4 {
   order: 4;
   width: 200px;
-  height: 150px;
-  background-color: #be3177;
+  height: 300px;
+  background: url('../actors/Oh Yeon Seo.webp') no-repeat top center / cover;
 }
 #actor5 {
   order: 5;
   width: 200px;
-  height: 150px; 
+  height: 300px;
+  background: url('../actors/Seo In-guk.webp') no-repeat top center / cover;
 }
 #actor6 {
-  order: 6; 
-}
-#actor7 {
-  order: 7;
+  order: 6;
   width: 200px;
-  height: 150px;
-}
-#actor8 {
-  order: 8;
-  width: 200px;
-  height: 150px;
-}
-#actor9 {
-  order: 9;
-  width: 200px;
-  height: 150px;
-}
-#actor10 {
-  order: 10;
-  width: 200px;
-  height: 150px;
-}
-#actor11 {
-  order: 11;
-  width: 200px;
-  height: 150px;
-}
-#actor12 {
-  order: 12;
-  width: 200px;
-  height: 150px;
-}
-
-.hidden-element {
-  text-decoration: none;
+  height: 300px;
+  background: url('../actors/Seo Ye Ji.webp') no-repeat top center / cover;
 }
 
 /* Footer */
@@ -193,7 +245,7 @@ main {
   width: 100%;
   bottom: 0;
   right: 0;
-	z-index: 3;
+	z-index: 1;
   display: flex;
   justify-content: space-evenly;
   list-style-type: none;
