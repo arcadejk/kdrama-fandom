@@ -77,7 +77,7 @@ main {
   /* Expand the main element to shift the footer downwards */
   flex: 1 0 auto;
   margin-top: 56px;
-  margin-bottom: 600px;
+  margin-bottom: 170px;
   padding: auto;
   position: relative;
   display: flex;
@@ -261,7 +261,7 @@ main {
   background: rgb(20, 30, 40);
 }
 
-/* Styling movies sections */
+/* Styling movies section */
 #movies {
     font-family: 'Baskervville', serif;
     color: linen;
@@ -270,7 +270,7 @@ main {
     padding-top: 30px;
     padding-left: 75px;
     padding-right: 75px;
-    padding-bottom: 20px;
+    padding-bottom: 30px;
     position: relative;
     
 }
@@ -318,6 +318,27 @@ main {
   height: 200px;
   background: url('../images/the king eternal monarch.webp') no-repeat top center / cover;
 }
+
+/* Styling the last index section */
+table {
+  border-collapse: collapse;
+  margin: 15px;
+  padding: 25px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  font-size: 25px;
+}
+
+th, td {
+  padding-right: 28px;
+  padding-left: 28px;
+  padding-top: 15px;
+  padding-bottom: 0;
+  text-align: center; 
+}
+
 /* Footer */
 #footer-elements {
 	text-align: center;
