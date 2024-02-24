@@ -22,22 +22,25 @@ Featured on all three pages, the full responsive navigation bar includes links t
 This section will allow the user to easily navigate from page to page across all devices without having to revert back to the previous page via the ‘back’ button.
 Nav Bar
 
-- **The landing page image**
+- **The landing page presentation images**
 
 The landing includes a photograph with text overlay to allow the user to see exactly which location this site would be applicable to.
 This section introduces the user to Love Running with an eye catching animation to grab their attention
 Landing Page
 
-- **Club Ethos Section**
+- **The Actors and Movies Forums**
 
 The club ethos section will allow the user to see the benefits of joining the Love Running meetups, as well as the benefits of running overall.
 This user will see the value of signing up for the Love Running meetups. This should encourage the user to consider running as their form of exercise.
 Club Ethos
 
-- **Meetup Times section**
+- **Some events Times section**
 This section will allow the user to see exactly when the meetups will happen, where they will be located and how long the run will be in kilometers.
 This section will be updated as these times change to keep the user up to date.
-Meetup Times
+
+- **The last section with additional links**
+This section will allow the user to see exactly when the meetups will happen, where they will be located and how long the run will be in kilometers.
+This section will be updated as these times change to keep the user up to date.
 
 - **The Footer**
 
@@ -45,7 +48,7 @@ The footer section includes links to the relevant social media sites for Love Ru
 The footer is valuable to the user as it encourages them to keep connected via social media
 Footer
 
-- **Gallery**
+- **The actors pages**
 
 The gallery will provide the user with supporting images to see what the meet ups look like.
 This section is valuable to the user as they will be able to easily identify the types of events the organisation puts together.
@@ -61,7 +64,7 @@ For some/all of your features, you may choose to reference the specific project 
 In addition, you may also use this section to discuss plans for additional features to be implemented in the future:
 
 ### Features Left to Implement
-Another feature idea
+The last section with additional links was left to implement
 
 # Testing
 In this section, you need to convince the assessor that you have conducted enough testing to legitimately believe that the site works well. Essentially, in this part you will want to go over all of your project’s features and ensure that they all work as intended, with the project providing an easy and straightforward way for the users to achieve their goals.
