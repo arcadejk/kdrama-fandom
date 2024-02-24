@@ -4,8 +4,6 @@
 The primary goal of "K-Drama React Fandom" is to foster a supportive and lively environment where fans can share their love for Korean dramas, exchange their thoughts on recent releases, and connect with like-minded individuals. By enabling users to participate in virtual reactions and discussions, the website aims to create a sense of community and provide an avenue for fans to express their enthusiasm for Korean cinema. Additionally, "K-Drama React Fandom" will feature resources such as classifications, recommendations, news, forums, events, synopsis and possibilities of collaboration.
 
 
-![responsive 01](https://github.com/arcadejk/kdrama-fandom/assets/157130011/6f77d1b3-a30d-4152-8bbd-6c95c02a4411)
-
 
 
 ## Features
@@ -14,8 +12,6 @@ In this section, you should go over the different parts of your project, and des
 ### Existing Features
   
 - **Navigation Bar**
-
-  ![image](https://github.com/arcadejk/kdrama-fandom/assets/157130011/49792f3e-c724-457e-867e-8b93f23ce760)
 
 
 Featured on all three pages, the full responsive navigation bar includes links to the Logo, Home page, Gallery and Sign Up page and is identical in each page to allow for easy navigation.
