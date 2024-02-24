@@ -23,7 +23,7 @@ header {
   align-items: center;
 }
 
-header a {
+header a, table a {
   text-decoration: none;
   color: inherit;
 }
@@ -77,7 +77,7 @@ main {
   /* Expand the main element to shift the footer downwards */
   flex: 1 0 auto;
   margin-top: 56px;
-  margin-bottom: 170px;
+  margin-bottom: 65px;
   padding: auto;
   position: relative;
   display: flex;
@@ -100,6 +100,7 @@ main {
   .welcome-text h3 {
     padding-top: 30px;
     padding-bottom: 30px;
+    color: orangered;
   } 
 
   #second-p {
@@ -191,10 +192,10 @@ main {
 }
 
 #actors h2 {
-    text-transform: uppercase;
+    
     font-size: 40px;
     text-align: center;
-    color: #be3144;
+    color: orangered;
     padding-top: 20px;
     font-weight: bold;
 }
@@ -205,60 +206,20 @@ main {
   flex-wrap: nowrap;
   margin-right: 75px;
   margin-left: 75px;
-  margin-top: 25px;
-  gap: 15px;
-
-
-}
-#actor1 {
-  order: 1;
-  width: 200px;
-  height: 300px;
-  background: url('../actors/Kim Sang Beom.webp') no-repeat top center / cover;
-}
-#actor2 {
-  order: 2;
-  width: 200px;
-  height: 300px;
-  background: url('../actors/Kim Yoo-Yung.webp') no-repeat top center / cover;
-}
-#actor3 {
-  order: 3;
-  width: 200px;
-  height: 300px;
-  background: url('../actors/Lee dong-wook.webp') no-repeat top center / cover; 
-}
-#actor4 {
-  order: 4;
-  width: 200px;
-  height: 300px;
-  background: url('../actors/Oh Yeon Seo.webp') no-repeat top center / cover;
-}
-#actor5 {
-  order: 5;
-  width: 200px;
-  height: 300px;
-  background: url('../actors/Seo In-guk.webp') no-repeat top center / cover;
-}
-#actor6 {
-  order: 6;
-  width: 200px;
-  height: 300px;
-  background: url('../actors/Seo Ye Ji.webp') no-repeat top center / cover;
+  padding-top: 50px;
+  gap: 14px;
 }
 
-#actors-names {
-  font-weight: bold;
-  font-size: 25px;
+.actors img {
+  width: 200px;
+  height: 300px;
+  background: url('') no-repeat top center / cover;
+}
+
+.actors p, .movies p {
+  font-size: 20px;
   text-align: center;
-  display: flex;
-  flex-direction: column;
-  justify-content: flex-end;
-  height: 300px;
-}
-
-#actors-names span {
-  background: rgb(20, 30, 40);
+  font-weight: bold;
 }
 
 /* Styling movies section */
@@ -270,12 +231,11 @@ main {
     padding-top: 30px;
     padding-left: 75px;
     padding-right: 75px;
-    padding-bottom: 30px;
+    padding-bottom: 70px;
     position: relative;
-    
 }
 
-#movies-div-container {
+.movies {
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
@@ -284,42 +244,19 @@ main {
   align-items: center;
 }
 
-#movies-titles span {
-  background: rgb(20, 30, 40);
-}
-
-#movie1 {
+.movies img {
   width: 400px;
-  height: 200px;
-  background: url('../images/Alchemy of Souls.webp') no-repeat top center / cover;
-}
-#movie2 {
-  width: 400px;
-  height: 200px;
-  background: url('../images/business-proposal.webp') no-repeat top center / cover;
-}
-#movie3 {
-  width: 400px;
-  height: 200px;
-  background: url('../images/Korean Odyssea.webp') no-repeat top center / cover;
-}
-#movie4 {
-  width: 400px;
-  height: 200px;
-  background: url('../images/mr-queen.webp') no-repeat top center / cover;
-}
-#movie5 {
-  width: 400px;
-  height: 200px;
-  background: url('../images/tale-of-the-nine-tailed.webp') no-repeat top center / cover;
-}
-#movie6 {
-  width: 400px;
-  height: 200px;
-  background: url('../images/the king eternal monarch.webp') no-repeat top center / cover;
+  height: 300px;
+  padding-top: 60px;
+  background: url('') no-repeat top center / cover;
 }
 
 /* Styling the last index section */
+.last-section {
+  background: #45567d;
+  padding: 0;
+}
+
 table {
   border-collapse: collapse;
   margin: 15px;
@@ -331,13 +268,35 @@ table {
   font-size: 25px;
 }
 
+table a:hover {
+  background: rgb(102, 111, 235);
+  }
+
 th, td {
   padding-right: 28px;
   padding-left: 28px;
   padding-top: 15px;
   padding-bottom: 0;
-  text-align: center; 
+  text-align: center;
+  color: #ffffff;
 }
+
+/* Define the animation */
+@keyframes grow {
+  from {
+    transform: scale(1);
+  }
+  to {
+    transform: scale(1.2);
+  }
+}
+
+/* Apply the animation on hover */
+.actors img:hover, .movies img:hover  {
+  animation: grow 0.3s ease;
+  text-decoration: none;
+}
+
 
 /* Footer */
 #footer-elements {
@@ -370,4 +329,87 @@ th, td {
 
 #footer-elements a:hover {
   background: rgb(228, 181, 215);
+}
+
+/* Styling the Signup page */
+.signup {
+  width: 100%;
+  margin: 0;
+  background-color: #1b1b32;
+  color: #f5f6f7;
+  font-family: Tahoma;
+  font-size: 16px;
+  display: flex;
+}
+
+.signup h1, .signup p {
+  margin: 1em auto;
+  text-align: center;
+  padding-top: 20px;
+}
+
+form {
+  width: 60vw;
+  max-width: 500px;
+  min-width: 300px;
+  margin: 100px;
+  padding-bottom: 2em;
+}
+.signup img {
+width: 800px;
+height: inherit;
+}
+
+fieldset {
+  border: none;
+  padding: 2rem 0;
+  border-bottom: 3px solid #3b3b4f;
+}
+
+fieldset:last-of-type {
+  border-bottom: none;
+}
+
+.signup label {
+  display: block;
+  margin: 0.5rem 0;
+}
+
+input,
+textarea,
+select {
+  margin: 10px 0 0 0;
+  width: 100%;
+  min-height: 2em;
+}
+
+input, textarea {
+  background-color: #0a0a23;
+  border: 1px solid #0a0a23;
+  color: #ffffff;
+}
+
+.inline {
+  width: unset;
+  margin: 0 0.5em 0 0;
+  vertical-align: middle;
+}
+
+input[type="submit"] {
+  display: block;
+  width: 60%;
+  margin: 1em auto;
+  height: 2em;
+  font-size: 1.1rem;
+  background-color: #3b3b4f;
+  border-color: white;
+  min-width: 300px;
+}
+
+input[type="file"] {
+  padding: 1px 2px;
+}
+
+.inline {
+  display: inline; 
 }
