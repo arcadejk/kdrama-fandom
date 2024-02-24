@@ -35,10 +35,12 @@ This user will see the value of signing up for the Love Running meetups. This sh
 Club Ethos
 
 - **Some events Times section**
+- 
 This section will allow the user to see exactly when the meetups will happen, where they will be located and how long the run will be in kilometers.
 This section will be updated as these times change to keep the user up to date.
 
 - **The last section with additional links**
+- 
 This section will allow the user to see exactly when the meetups will happen, where they will be located and how long the run will be in kilometers.
 This section will be updated as these times change to keep the user up to date.
 
