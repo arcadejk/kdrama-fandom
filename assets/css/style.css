@@ -12,7 +12,6 @@
 header {
   background-color: #be3144;
   color: #ffffff;
-  padding: 1rem 1rem;
   position: fixed;
   top: 0;
   z-index: 1000;
@@ -34,6 +33,10 @@ header a, table a {
   }
 
   /* Navbar styles with dropdown element */
+  #menu-control, .menu-icon {
+    display: none;
+    }
+
   .nav {
     display: flex;
     justify-content: flex-end;
@@ -76,7 +79,6 @@ body {
 main {
   /* Expand the main element to shift the footer downwards */
   flex: 1 0 auto;
-  margin-top: 56px;
   margin-bottom: 65px;
   padding: auto;
   position: relative;
@@ -435,20 +437,64 @@ input[type="file"] {
   } 
 }
 
-@media only screen and (max-width: 628px) {
-  .text-with-images {
-    grid-template-columns: 1fr;
+@media only screen and (max-width: 280px) {
+  
+  #logo {
+    padding-left: 0.5rem;
+    font-size: 15px;
   }
-}
+
+  .menu-icon {
+    display: block;
+    width: 30px;
+    height: 30px;
+    cursor: pointer;
+    padding-top: 8px;
+    }
+  
+    .nav {
+      display: none;
+      position: absolute;
+      top: 100%;
+      left: 0;
+      color: black;
+      background-color: white;
+      padding: 10px;
+      border: 1px solid black;
+    }
+    
+    .nav-list {
+      font-size: 13px;
+    }
+
+    #menu-control:checked ~ .nav {
+      display: block;
+    }
+
+    main {
+      margin-top: 0;
+    }
+    
+/* Styling the Welcome-section */
+  #welcome-section {
+  height: 184px;
+  }
+
+  .welcome-text {
+    margin: 0;
+  }
+  .welcome-text-title {
+    font-size: 2rem;
+  }
+  
+.welcome-text-subtitle {
+    font-size: 1rem;
+  }
 
 @media only screen and (max-width: 720px) {
-  .image-wrapper {
-    grid-template-columns: 1fr;
-  }
+ 
 }
 
 @media only screen and (max-width: 990px) {
-  .image-wrapper {
-    grid-template-columns: 1fr;
-  }
+ 
 }
