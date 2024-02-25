@@ -168,8 +168,6 @@ main {
   .lists {
     list-style-type: none;
     margin-top: 2rem;
-    display: flex;
-    flex-flow: center;
     padding-left: 25vh;
     padding-right: 25vh;
   }
@@ -481,14 +479,47 @@ input[type="file"] {
   }
 
   .welcome-text {
+    padding-left: 5vh;
+    padding-right: 5vh;
+    padding-top: 10px;
+    padding-bottom: 20px;
+  }
+
+  .welcome-text {
     margin: 0;
   }
+
   .welcome-text-title {
-    font-size: 2rem;
+    font-size: 1.5rem;
+  }
+
+ .list-movies h3 {
+    font-size: 1.5rem;
+    padding-top: 20px;
   }
   
-.welcome-text-subtitle {
+  .welcome-text-subtitle {
     font-size: 1rem;
+    padding-top: 15px;
+  }
+
+  .welcome-text-article {
+    font-size: 1.1rem;
+  }
+
+  .welcome-video {
+    padding: 20px;
+  }
+    .welcome-video video {
+    max-width: 250px;
+    padding: 20px;
+  }
+
+  .list-movies ul {
+    display: block;
+    padding-left: 1vh;
+    padding-right: 1vh;
+    text-align: justify;
   }
 
 @media only screen and (max-width: 720px) {
