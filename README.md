@@ -13,6 +13,7 @@ In this section, you should go over the different parts of your project, and des
   
 - **Navigation Bar**
 
+![image](https://github.com/arcadejk/kdrama-fandom/assets/157130011/87dd53b7-2a2b-4565-bc9a-71cfc3534135)
 
 Featured on all three pages, the full responsive navigation bar includes links to the Logo, Home page, Gallery and Sign Up page and is identical in each page to allow for easy navigation.
 This section will allow the user to easily navigate from page to page across all devices without having to revert back to the previous page via the ‘back’ button.
