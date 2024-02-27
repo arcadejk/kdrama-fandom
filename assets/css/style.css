@@ -96,7 +96,7 @@ main {
     padding-right: 25vh;
     margin-top: 0;
     padding-top: 30px;
-    padding-bottom: 20px;
+    padding-bottom: 30px;
   }
   
   .welcome-text h3 {
@@ -187,12 +187,9 @@ main {
     color: linen;
     background-color: rgb(20, 30, 40);
     margin-top: 0;
-    padding-top: 30px;
-    padding-bottom: 20px;
 }
 
 #actors h2 {
-    
     font-size: 40px;
     text-align: center;
     color: orangered;
@@ -206,7 +203,7 @@ main {
   flex-wrap: nowrap;
   margin-right: 75px;
   margin-left: 75px;
-  padding-top: 50px;
+  padding-top: 30px;
   gap: 14px;
 }
 
@@ -246,8 +243,7 @@ main {
 
 .movies img {
   width: 400px;
-  height: 300px;
-  padding-top: 60px;
+  height: 260px;
   background: url('') no-repeat top center / cover;
 }
 
@@ -521,6 +517,61 @@ input[type="file"] {
     padding-right: 1vh;
     text-align: justify;
   }
+  
+  #actors h2 {
+    font-size: 1.5rem;
+  }
+
+  .actors {
+    display: block;
+    padding-top: 10px;
+  }
+
+  .actors div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 5px;
+  }
+
+  .actors p {
+    display: none;
+  }
+  /* Define the animation */
+@keyframes grow {
+  from {
+    transform: scale(1);
+  }
+  to {
+    transform: scale(1.2);
+  }
+}
+
+/* Apply the animation on hover */
+.actors img:hover, .movies img:hover  {
+  animation: grow 0.3s ease;
+  text-decoration: none;
+}
+
+/* Resizing images */
+.actors img {
+  width: 130px;
+  height: 220px;
+}
+
+.movies img {
+  width: 250px;
+  height: 160px;
+}
+
+#movies {
+  padding-bottom: 40px;
+}
+
+/* Resizing section before the footer */
+.last-section {
+
+}
 
 @media only screen and (max-width: 720px) {
  
