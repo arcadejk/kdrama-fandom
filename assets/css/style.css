@@ -79,7 +79,7 @@ body {
 main {
   /* Expand the main element to shift the footer downwards */
   flex: 1 0 auto;
-  margin-bottom: 65px;
+  margin-bottom: 0;
   padding: auto;
   position: relative;
   display: flex;
@@ -243,7 +243,7 @@ main {
 
 .movies img {
   width: 400px;
-  height: 260px;
+  height: 240px;
   background: url('') no-repeat top center / cover;
 }
 
@@ -305,7 +305,7 @@ th, td {
   display: flex;
   justify-content: space-evenly;
   list-style-type: none;
-  position: fixed;
+  position: relative;
   background-color: rgb(223, 162, 223);
   font-size: 20px;
   font-family: Arial, Helvetica, sans-serif;
@@ -453,12 +453,27 @@ input[type="file"] {
       left: 0;
       color: black;
       background-color: white;
-      padding: 10px;
       border: 1px solid black;
     }
     
     .nav-list {
       font-size: 13px;
+      list-style: none;
+      padding: 0;
+      margin: 0;
+    }
+
+    .nav li {
+      display: inline-block;
+      margin-right: 10px; 
+    }
+
+    .nav li:last-child {
+      margin-right: 0;
+    }
+
+    .nav-list a:hover {
+      text-decoration: rgb(233, 129, 129);
     }
 
     #menu-control:checked ~ .nav {
@@ -537,6 +552,7 @@ input[type="file"] {
   .actors p {
     display: none;
   }
+
   /* Define the animation */
 @keyframes grow {
   from {
@@ -569,9 +585,32 @@ input[type="file"] {
 }
 
 /* Resizing section before the footer */
-.last-section {
+  table {
+  margin: 5px;
+  padding: 5px;
+  border-collapse: collapse;
+  font-size: 10px;
+  }
+  
+  th, td {
+    padding: 5px;
+  }
 
+  table a:hover {
+    background: rgb(102, 111, 235);
+    }
+
+#footer-elements, table {
+display: flex;
+flex-direction: row;
+flex-wrap: wrap;
+padding: 5px;
 }
+
+#footer-elements i, #footer-elements p, #movies p {
+  font-size: 15px;
+}
+
 
 @media only screen and (max-width: 720px) {
  
