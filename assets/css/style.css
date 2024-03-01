@@ -408,74 +408,9 @@ input[type="file"] {
   display: inline; 
 }
 
-@media only screen and (min-width: 768px) {
-  #index-header {
-    max-width: 768px;
-  }
 
-  #logo {
-    padding: 1rem;
-    font-size: 25px;
-  }
 
-  .nav {
-      display: flex;
-      padding-right: .2rem;
-      font-size: 20px;
-      font-weight: bold;
-    }
-  
-  .nav-list {
-    display: flex;
-    margin-right: 0;
-    }
-
-  .welcome-text {
-    padding-left: 35px;
-    padding-right: 35px;
-    padding-top: 30px;
-    padding-bottom: 30px;
-    column-count: 2;
-  }
-
-  .actors {
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr; 
-    padding-bottom: 20px;
-  }
-
-  .actors img {
-    padding-top: 25px;
-  }
-
-  .list-movies ul {
-    display: block;
-    padding-left: 1vh;
-    padding-right: 1vh;
-    text-align: justify;
-  }
-
-  .welcome-video {
-    padding: 20px;
-    display: flex;
-  }
-    .welcome-video video {
-    width: 250px;
-    padding: 10px;
-  }
-
-  /* signup styling elements */
-  .signup {
-  display: block;
-  }
-
-.signup img {
-width: 100%;
-display: block;
-}
-}
-
-@media only screen and (max-width: 280px) {
+@media only screen and (min-width: 280px) {
   #signup-header {
     max-width: 280px;
   }
@@ -670,5 +605,119 @@ fieldset {
 
 label[for="terms-and-conditions"] {
   font-size: 0.8em;
+}
+}
+
+@media only screen and (min-width: 768px) {
+  #index-header {
+    max-width: 768px;
+  }
+
+  #logo {
+    padding: 1rem;
+    font-size: 25px;
+  }
+
+  .nav {
+      display: flex;
+      padding-right: .2rem;
+      font-size: 20px;
+      font-weight: bold;
+    }
+  
+  .nav-list {
+    display: flex;
+    margin-right: 0;
+    }
+
+  .welcome-text {
+    padding-left: 35px;
+    padding-right: 35px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    column-count: 2;
+  }
+
+  .actors {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr; 
+    padding-bottom: 20px;
+  }
+
+  .actors img {
+    padding-top: 25px;
+  }
+
+  .list-movies ul {
+    display: block;
+    padding-left: 1vh;
+    padding-right: 1vh;
+    text-align: justify;
+  }
+
+  .welcome-video {
+    padding: 20px;
+    display: flex;
+  }
+    .welcome-video video {
+    width: 250px;
+    padding: 10px;
+  }
+
+  /* signup styling elements */
+  .signup {
+  display: block;
+  }
+
+.signup img {
+width: 100%;
+display: block;
+}
+}
+
+@media only screen and (min-width: 1024px) {
+
+  #index-header {
+    max-width: 1024px;
+  }
+  #logo {
+    font-size: 35px;
+  }
+
+  #menu-control, .menu-icon {
+    display: none;
+    }
+
+  .nav {
+    display: flex;
+    justify-content: flex-end;
+    position: relative;
+    width: 60%;
+    background: rgba(0, 0, 255, 0);
+    color: #ffffff;
+    padding-right: 3rem;
+    font-size: 35px;
+    font-weight: bold; 
+    border: none;
+  }
+  
+  .nav-list {
+    display: flex;
+    margin-right: 2rem;
+    justify-content: space-between;
+    }
+
+  .nav-list li {
+    margin-right: 30px;
+    font-size: 25px;
+    
+}
+
+.nav-list a:hover {
+  background: rgb(235, 145, 160);
+}
+
+.welcome-text {
+  padding-top: 450px;
 }
 }
