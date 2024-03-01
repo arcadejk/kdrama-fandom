@@ -294,10 +294,6 @@ th, td {
 #footer-elements {
 	text-align: center;
   padding: 1em;
-  width: 100%;
-  bottom: 0;
-  right: 0;
-	z-index: 1;
   display: flex;
   justify-content: space-evenly;
   list-style-type: none;
@@ -341,12 +337,13 @@ th, td {
 }
 
 form {
-  width: 60vw;
   max-width: 500px;
   min-width: 300px;
-  margin: 100px;
+  margin: 150px;
   padding-bottom: 2em;
+  align-items: center;
 }
+
 .signup img {
 width: 800px;
 height: inherit;
@@ -387,6 +384,12 @@ input, textarea {
   vertical-align: middle;
 }
 
+label[for="terms-and-conditions"] a {
+  color: white;
+  text-decoration: underline;
+  font-weight: bold;
+}
+
 input[type="submit"] {
   display: block;
   width: 40%;
@@ -405,76 +408,44 @@ input[type="file"] {
   display: inline; 
 }
 
-@media only screen and (max-width: 768px) {
-  #logo {
-  padding-left: 50px;
-  font-size: 30px;
+@media only screen and (min-width: 768px) {
+  #index-header {
+    max-width: 768px;
   }
 
-    .nav-list {
-      font-size: 15px;
-      list-style: none;
-      padding: 0;
-      margin: 0;
+  #logo {
+    padding: 1rem;
+    font-size: 25px;
+  }
+
+  .nav {
+      display: flex;
+      padding-right: .2rem;
+      font-size: 20px;
+      font-weight: bold;
+    }
+  
+  .nav-list {
+    display: flex;
+    margin-right: 0;
     }
 
-    .nav li {
-      display: inline-block;
-      margin-right: 10px; 
-      padding-left: 10px;
-    }
-
-    .nav li:last-child {
-      margin-right: 0;
-    }
-
-    .nav-list a:hover {
-      text-decoration: rgb(243, 174, 174);
-    }
-
-    main {
-      margin-top: 0;
-    }
-    
-/* Styling the Welcome-section */
   .welcome-text {
-    padding-left: 5vh;
-    padding-right: 5vh;
-    padding-top: 10px;
+    padding-left: 35px;
+    padding-right: 35px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    column-count: 2;
+  }
+
+  .actors {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr; 
     padding-bottom: 20px;
   }
 
-  .welcome-text {
-    margin: 0;
-  }
-
-  .welcome-text-title {
-    font-size: 1.5rem;
-  }
-
- .list-movies h3 {
-    font-size: 1.5rem;
-    padding-top: 40px;
-  }
-  
-  .welcome-text-subtitle {
-    font-size: 1.5rem;
-  }
-
-  .welcome-text-article {
-    grid-column: 2 / 3;
-    font-size: 1.4rem;
-    letter-spacing: 0.6px;
-    column-width: 25rem;
-    text-align: justify;
-    }
-
-  .welcome-video {
-    padding: 20px;
-  }
-    .welcome-video video {
-    max-width: 740px;
-    padding: 20px;
+  .actors img {
+    padding-top: 25px;
   }
 
   .list-movies ul {
@@ -483,135 +454,35 @@ input[type="file"] {
     padding-right: 1vh;
     text-align: justify;
   }
-  
-  #actors h2 {
-    font-size: 1.5rem;
-    padding-top: 25px;
+
+  .welcome-video {
+    padding: 20px;
+    display: flex;
+  }
+    .welcome-video video {
+    width: 250px;
+    padding: 10px;
   }
 
-  .actors {
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    grid-gap: 5px;
-    padding-left: 5vh;
-    padding-right: 5vh;
-  }
-
-  /* Define the animation */
-@keyframes grow {
-  from {
-    transform: scale(1);
-  }
-  to {
-    transform: scale(1.2);
-  }
-}
-
-/* Apply the animation on hover */
-.actors img:hover, .movies img:hover  {
-  animation: grow 0.3s ease;
-  text-decoration: none;
-}
-
-/* Resizing images */
-.actors img {
-  width: 150px;
-  height: 220px;
-}
-
-.movies img {
-  width: 250px;
-  height: 160px;
-}
-
-#movies {
-  padding-top: 40px;
-  padding-bottom: 40px;
-}
-
-/* Resizing section before the footer */
-  table {
-  margin: 5px;
-  padding: 5px;
-  border-collapse: collapse;
-  font-size: 10px;
-  }
-  
-  th, td {
-    padding: 5px;
-  }
-
-  table a:hover {
-    background: rgb(102, 111, 235);
-    }
-
-#footer-elements, table {
-display: flex;
-flex-direction: row;
-flex-wrap: wrap;
-padding: 5px;
-}
-
-#footer-elements i, #footer-elements p, #movies p {
-  font-size: 15px;
-}
-
-/* Styling the Signup page */
-.signup {
-  font-size: 10px;
+  /* signup styling elements */
+  .signup {
   display: block;
-}
-
-.signup h1, .signup p {
-  margin: 0;
-  text-align: center;
-  padding-top: 15px;
-  padding-right: 15px;
-  width: 260px;
-  padding-bottom: 10px;
-}
-
-form {
-  max-width: 280px;
-  min-width: 653px;
-  margin: 0;
-  padding: 15px;
-}
+  }
 
 .signup img {
-width: 280px;
-height: inherit;
+width: 100%;
 display: block;
-}
-
-fieldset {
-  width: 250px;
-  padding: 1px;
-}
-
-.signup label {
-  display: block;
-  margin: 0.5rem 0;
-}
-
-.inline {
-  width: unset;
-  margin: 0 0.5em 0 0;
-  vertical-align: middle;
-}
-
-input[type="submit"] {
-  display: block;
-  margin: 5px;
-  height: 2em;
 }
 }
 
 @media only screen and (max-width: 280px) {
-  
+  #signup-header {
+    max-width: 280px;
+  }
+
   #logo {
-    padding-left: 0.5rem;
-    font-size: 15px;
+    padding-left: .5rem;
+    font-size: 18px;
   }
 
   .menu-icon {
@@ -620,6 +491,7 @@ input[type="submit"] {
     height: 30px;
     cursor: pointer;
     padding-top: 8px;
+    padding-right: .5rem;
     }
   
     .nav {
@@ -634,7 +506,6 @@ input[type="submit"] {
     
     .nav-list {
       font-size: 13px;
-      list-style: none;
       padding: 0;
       margin: 0;
     }
@@ -657,10 +528,6 @@ input[type="submit"] {
       display: block;
     }
 
-    main {
-      margin-top: 0;
-    }
-    
 /* Styling the Welcome-section */
   #welcome-section {
   height: 184px;
@@ -699,8 +566,8 @@ input[type="submit"] {
     padding: 20px;
   }
     .welcome-video video {
-    max-width: 250px;
-    padding: 20px;
+    width: 250px;
+    padding: 10px;
   }
 
   .list-movies ul {
@@ -715,46 +582,26 @@ input[type="submit"] {
   }
 
   .actors {
-    display: block;
-    padding-top: 10px;
-  }
-
-  .actors div {
-    display: flex;
+    display: grid;
+    grid-template-columns: 1fr 1fr; 
+    grid-gap: 8px;  
     justify-content: center;
     align-items: center;
-    padding: 5px;
   }
-
-  .actors p {
-    display: none;
-  }
-
-  /* Define the animation */
-@keyframes grow {
-  from {
-    transform: scale(1);
-  }
-  to {
-    transform: scale(1.2);
-  }
-}
-
-/* Apply the animation on hover */
-.actors img:hover, .movies img:hover  {
-  animation: grow 0.3s ease;
-  text-decoration: none;
-}
-
+ 
 /* Resizing images */
 .actors img {
-  width: 130px;
-  height: 220px;
+  width: 120px;
+  height: 180px;
+}
+.actors p {
+  padding: 5px;
+  font-size: 15px;
 }
 
 .movies img {
   width: 250px;
-  height: 160px;
+  height: 150px;
 }
 
 #movies {
@@ -790,7 +637,6 @@ padding: 5px;
 
 /* Styling the Signup page */
 .signup {
-  font-size: 10px;
   display: block;
 }
 
@@ -799,25 +645,21 @@ padding: 5px;
   text-align: center;
   padding-top: 15px;
   padding-right: 15px;
-  width: 260px;
   padding-bottom: 10px;
 }
 
 form {
-  max-width: 280px;
-  min-width: 653px;
   margin: 0;
   padding: 15px;
 }
 
 .signup img {
 width: 280px;
-height: inherit;
 display: block;
 }
 
 fieldset {
-  width: 250px;
+  width: 90%;
   padding: 1px;
 }
 
@@ -826,15 +668,7 @@ fieldset {
   margin: 0.5rem 0;
 }
 
-.inline {
-  width: unset;
-  margin: 0 0.5em 0 0;
-  vertical-align: middle;
-}
-
-input[type="submit"] {
-  display: block;
-  margin: 5px;
-  height: 2em;
+label[for="terms-and-conditions"] {
+  font-size: 0.8em;
 }
 }
