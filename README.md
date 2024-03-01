@@ -61,6 +61,8 @@ Dedicated pages for Korean actors provide detailed information about their biogr
 
 - **The Sign-Up Page**
 
+  ![image](https://github.com/arcadejk/kdrama-fandom/assets/157130011/5d24a656-72d4-4df9-b56d-001aaeca0069)
+
 Users can register for an account through the sign-up page, enabling access to additional features such as personalized recommendations, saved preferences, and participation in forums.
 
 These existing features contribute to creating a comprehensive and user-friendly platform for Korean movie enthusiasts to explore and engage with their favorite content.
