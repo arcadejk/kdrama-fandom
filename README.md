@@ -3,6 +3,7 @@
 
 The primary goal of "K-Drama React Fandom" is to foster a supportive and lively environment where fans can share their love for Korean dramas, exchange their thoughts on recent releases, and connect with like-minded individuals. By enabling users to participate in virtual reactions and discussions, the website aims to create a sense of community and provide an avenue for fans to express their enthusiasm for Korean cinema. Additionally, "K-Drama React Fandom" will feature resources such as classifications, recommendations, news, forums, events, synopsis and possibilities of collaboration.
 
+![image](https://github.com/arcadejk/kdrama-fandom/assets/157130011/6ba67f29-8604-470e-b34c-4a257182b52f)
 
 
 
@@ -25,10 +26,15 @@ The landing includes a photograph with text overlay to allow the user to see exa
 This section introduces the user to Love Running with an eye catching animation to grab their attention.
 
 - **Welcome Article: "Exploring the Dynamic World of Korean Cinema"**
-  
+
+  ![image](https://github.com/arcadejk/kdrama-fandom/assets/157130011/79c4224d-ee9f-473f-a50e-1520a55b8112)
+
 The welcome article provides an introduction to the vibrant landscape of Korean cinema, highlighting its unique storytelling, compelling characters, and visually stunning cinematography. This article serves as a gateway for users to delve deeper into the world of Korean movies, setting the stage for an immersive and enriching experience on the website.
 
 - **The Actors and Movies Forums**
+
+![image](https://github.com/arcadejk/kdrama-fandom/assets/157130011/888675fa-b9bb-49e5-819f-fb6fd66f4563)
+
 
 The website includes a section displaying upcoming events and screenings related to Korean cinema, keeping users informed about relevant activities and gatherings.
 
@@ -38,10 +44,14 @@ The website includes a section displaying upcoming events and screenings related
 
 - **The last section with additional links**
 
+  ![image](https://github.com/arcadejk/kdrama-fandom/assets/157130011/5c856cb6-f3dc-4497-981c-bc63c9096e66)
+
+
 This section will allow the user to see exactly when the meetups will happen, where they will be located and how long the run will be in kilometers.
 This section will be updated as these times change to keep the user up to date.
 
 - **The Footer**
+![image](https://github.com/arcadejk/kdrama-fandom/assets/157130011/4924e59b-be27-4f2a-8efb-2bf3203bf858)
 
 The footer contains essential information such as contact details, social media links, and copyright information, providing users with additional resources and ensuring transparency.
 
