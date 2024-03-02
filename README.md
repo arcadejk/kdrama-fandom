@@ -3,6 +3,7 @@
 
 The primary goal of "K-Drama React Fandom" is to foster a supportive and lively environment where fans can share their love for Korean dramas, exchange their thoughts on recent releases, and connect with like-minded individuals. By enabling users to participate in virtual reactions and discussions, the website aims to create a sense of community and provide an avenue for fans to express their enthusiasm for Korean cinema. Additionally, "K-Drama React Fandom" will feature resources such as classifications, recommendations, news, forums, events, synopsis and possibilities of collaboration.
 
+![image](https://github.com/arcadejk/kdrama-fandom/assets/157130011/6ba67f29-8604-470e-b34c-4a257182b52f)
 
 
 
@@ -25,10 +26,15 @@ The landing includes a photograph with text overlay to allow the user to see exa
 This section introduces the user to Love Running with an eye catching animation to grab their attention.
 
 - **Welcome Article: "Exploring the Dynamic World of Korean Cinema"**
-  
+
+  ![image](https://github.com/arcadejk/kdrama-fandom/assets/157130011/79c4224d-ee9f-473f-a50e-1520a55b8112)
+
 The welcome article provides an introduction to the vibrant landscape of Korean cinema, highlighting its unique storytelling, compelling characters, and visually stunning cinematography. This article serves as a gateway for users to delve deeper into the world of Korean movies, setting the stage for an immersive and enriching experience on the website.
 
 - **The Actors and Movies Forums**
+
+![image](https://github.com/arcadejk/kdrama-fandom/assets/157130011/888675fa-b9bb-49e5-819f-fb6fd66f4563)
+
 
 The website includes a section displaying upcoming events and screenings related to Korean cinema, keeping users informed about relevant activities and gatherings.
 
@@ -38,10 +44,14 @@ The website includes a section displaying upcoming events and screenings related
 
 - **The last section with additional links**
 
+  ![image](https://github.com/arcadejk/kdrama-fandom/assets/157130011/5c856cb6-f3dc-4497-981c-bc63c9096e66)
+
+
 This section will allow the user to see exactly when the meetups will happen, where they will be located and how long the run will be in kilometers.
 This section will be updated as these times change to keep the user up to date.
 
 - **The Footer**
+![image](https://github.com/arcadejk/kdrama-fandom/assets/157130011/4924e59b-be27-4f2a-8efb-2bf3203bf858)
 
 The footer contains essential information such as contact details, social media links, and copyright information, providing users with additional resources and ensuring transparency.
 
@@ -51,6 +61,8 @@ Dedicated pages for Korean actors provide detailed information about their biogr
 
 - **The Sign-Up Page**
 
+  ![image](https://github.com/arcadejk/kdrama-fandom/assets/157130011/5d24a656-72d4-4df9-b56d-001aaeca0069)
+
 Users can register for an account through the sign-up page, enabling access to additional features such as personalized recommendations, saved preferences, and participation in forums.
 
 These existing features contribute to creating a comprehensive and user-friendly platform for Korean movie enthusiasts to explore and engage with their favorite content.
@@ -59,13 +71,12 @@ These existing features contribute to creating a comprehensive and user-friendly
 The last section with additional links was left to implement
 
 # Testing
-In this section, you need to convince the assessor that you have conducted enough testing to legitimately believe that the site works well. Essentially, in this part you will want to go over all of your project’s features and ensure that they all work as intended, with the project providing an easy and straightforward way for the users to achieve their goals.
 
-In addition, you should mention in this section how your project looks and works on different browsers and screen sizes.
+* I tested this page works in different browsers: Chrome, Firefox, Safari.
+* I confirmed that the project is responsive, looks good and functions on all standard screen sizes using the devtools device toolbar.
+* I confirmed that the navigation, header, about us, and contact text are all readable and easy to understand.
+* I have confirmed that the form works required entries in every field, will only accept an email in the an email field, and the submit button works.
 
-You should also mention in this section any interesting bugs or problems you discovered during your testing, even if you haven't addressed them yet.
-
-If this section grows too long, you may want to split it off into a separate file and link to it from here.
 
 ## Validator Testing
 - **HTML**
@@ -84,7 +95,7 @@ The site was deployed to GitHub pages. The steps to deploy are as follows:
 In the GitHub repository, navigate to the Settings tab
 From the source section drop-down menu, select the Master Branch
 Once the master branch has been selected, the page will be automatically refreshed with a detailed ribbon display to indicate the successful deployment.
-The live link can be found here - https://code-institute-org.github.io/love-running-2.0/index.html
+The live link can be found here - https://github.com/arcadejk/kdrama-fandom/blob/main/index.html
 
 # Credits
 In this section you need to reference where you got your content, media and extra help from. It is common practice to use code from other repositories and tutorials, however, it is important to be very specific about these sources to avoid plagiarism.
