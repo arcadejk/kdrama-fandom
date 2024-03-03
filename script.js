@@ -1,13 +1,15 @@
-document.addEventListener("DOMContentLoaded", function() {
-    const questions = document.querySelectorAll('.question');
+function fetchComments() {}
 
-    questions.forEach(function(question) {
-        const title = question.querySelector('.question-title');
-        const answer = question.querySelector('.answer');
+// Function to handle comment submission
+function submitComment(event) {
+    event.preventDefault(); // Prevent form submission
+    const commentInput = document.getElementById('comment-input');
+    const comment = commentInput.value.trim(); // Get comment text
+    if (comment !== '') {}
 
-        title.addEventListener('click', function() {
-            answer.classList.toggle('show');
-        });
-    });
-});
+    // Event listener for comment submission
+document.getElementById('comment-form').addEventListener('submit', submitComment);
+
+// Fetch comments when the page loads
+fetchComments();
   
