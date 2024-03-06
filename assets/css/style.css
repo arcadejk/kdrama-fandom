@@ -30,6 +30,7 @@ header a, table a, .terms-text a {
 #logo {
     padding-left: 7rem;
     font-size: 40px;
+    flex-grow: 1;
   }
 
   /* Navbar styles with dropdown element */
@@ -57,7 +58,6 @@ header a, table a, .terms-text a {
 
   .nav-list li {
     margin-right: 50px;
-    
 }
 
 .nav-list a:hover {
@@ -84,6 +84,10 @@ main {
   flex-direction: column;
   flex-grow: 1;
   overflow: auto;
+}
+
+#hidden-h2, .last-welcome-text h2, #movies h2, .last-section h2 {
+  display: none;
 }
 
 /* Styling the welcome-text-article */
@@ -292,26 +296,32 @@ th, td {
 }
 
 /* Footer */
-#footer-elements {
-	text-align: center;
+
+footer {
+	background-color: rgb(223, 162, 223);
+  text-align: center;
   padding: 1em;
   display: flex;
   justify-content: space-evenly;
   list-style-type: none;
   position: relative;
-  background-color: rgb(223, 162, 223);
   font-size: 20px;
   font-family: Arial, Helvetica, sans-serif;
   font-weight: bold;
 }
 
-#footer-elements i {
+footer li {
+  display: inline-flex;,
+  justify-content: space-evenly;
+}
+
+footer i {
   font-size: 140%;
   padding: 2%;
   color: #3a3a3a;
 }
 
-#footer-elements p>a {
+footer p>a {
   text-decoration: none;
   color: #3a3a3a;
 }
@@ -331,7 +341,7 @@ th, td {
   display: flex;
 }
 
-.signup h1, .signup p {
+.signup h2, .signup p {
   margin: 1em auto;
   text-align: center;
   padding-top: 20px;
@@ -785,7 +795,7 @@ padding: 5px;
   display: block;
 }
 
-.signup h1, .signup p {
+.signup h2, .signup p {
   margin: 0;
   text-align: center;
   padding-top: 15px;
