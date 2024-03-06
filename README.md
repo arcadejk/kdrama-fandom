@@ -98,19 +98,20 @@ Once the master branch has been selected, the page will be automatically refresh
 The live link can be found here - https://github.com/arcadejk/kdrama-fandom/blob/main/index.html
 
 # Credits
-In this section you need to reference where you got your content, media and extra help from. It is common practice to use code from other repositories and tutorials, however, it is important to be very specific about these sources to avoid plagiarism.
 
-You can break the credits section up into Content and Media, depending on what you have included in your project.
+The content for this repository, including the README.md, Privacy Policy, Terms and Conditions, About Us, and FAQ sections, was written by me and Chat GPT, based on the requirements and specifications provided.
 
 ## Content
-The text for the Home page was taken from Wikipedia Article A
-Instructions on how to implement form validation on the Sign Up page was taken from Specific YouTube Tutorial
+The texts for all the pages and the instructions on how to implement form validation on the Sign Up page was writen using Chat GPT. 
 The icons in the footer were taken from Font Awesome
 
 ## Media
-The photos used on the home and sign up page are from This Open Source site
-The images used for the gallery page were taken from this other open source site
-Congratulations on completing your Readme, you have made another big stride in the direction of being a developer!
+The presentation images used in the Landing Page section were sourced from [Image Source].
+Any other media assets used in this repository were either created by me or obtained from royalty-free image repositories such as Pitnterest, Google images, or Pexels.
+The video in the welcome article section was taken from  Criterion Channel Teaser on the YouTube.
+The photos used on the home and sign up page are from This Open Source site like Google free pictures and Pinterest.
+The images used for the gallery page were taken from Peexels.
+
 
 ## Other General Project Advice
 Below you will find a couple of extra tips that may be helpful when completing your project. Remember that each of these projects will become part of your final portfolio so it’s important to allow enough time to showcase your best work!
