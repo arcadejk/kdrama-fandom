@@ -85,16 +85,23 @@ No errors were returned when passing through the official W3C validator
 - **CSS**
 No errors were found when passing through the official (Jigsaw) validator
 
+- **Accessibility**
+I confirmed that the colrs and fonts chosen are easy to read and accessible by running it through lighthouse in devtools.
+
+![image](https://github.com/arcadejk/kdrama-fandom/assets/157130011/1e22c4ea-c894-43e7-a833-a0c2762a713b)
+
+
 ### Unfixed Bugs
-You will need to mention unfixed bugs and why they were not fixed. This section should include shortcomings of the frameworks or technologies used. Although time can be a big variable to consider, paucity of time and difficulty understanding implementation is not a valid reason to leave bugs unfixed.
+No unfixed bugs.
 
 ### Deployment
-This section should describe the process you went through to deploy the project to a hosting platform (e.g. GitHub)
+The website has been successfully deployed to GitHub Pages. To replicate this process, follow these steps:
 
-The site was deployed to GitHub pages. The steps to deploy are as follows:
-In the GitHub repository, navigate to the Settings tab
-From the source section drop-down menu, select the Master Branch
-Once the master branch has been selected, the page will be automatically refreshed with a detailed ribbon display to indicate the successful deployment.
+1. Go to the Settings tab in the GitHub repository.
+2. In the source section drop-down menu, choose the Master Branch.
+3. After selecting the master branch, a link to the completed website will be provided.
+
+You can access the live link to the deployed website here: [K-Drama React Fandom].
 The live link can be found here - https://github.com/arcadejk/kdrama-fandom/blob/main/index.html
 
 # Credits
@@ -111,20 +118,3 @@ Any other media assets used in this repository were either created by me or obta
 The video in the welcome article section was taken from  Criterion Channel Teaser on the YouTube.
 The photos used on the home and sign up page are from This Open Source site like Google free pictures and Pinterest.
 The images used for the gallery page were taken from Peexels.
-
-
-## Other General Project Advice
-Below you will find a couple of extra tips that may be helpful when completing your project. Remember that each of these projects will become part of your final portfolio so it’s important to allow enough time to showcase your best work!
-
-One of the most basic elements of keeping a healthy commit history is with the commit message. When getting started with your project, read through this article by Chris Beams on How to Write a Git Commit Message
-
-Make sure to keep the messages in the imperative mood
-When naming the files in your project directory, make sure to consider meaningful naming of files, point to specific names and sections of content.
-
-For example, instead of naming an image used ‘image1.png’ consider naming it ‘landing_page_img.png’. This will ensure that there are clear file paths kept.
-Do some extra research on good and bad coding practices, there are a handful of useful articles to read, consider reviewing the following list when getting started:
-
-Writing Your Best Code
-HTML & CSS Coding Best Practices
-Google HTML/CSS Style Guide
-Getting started with your Portfolio Projects can be daunting, planning your project can make it a lot easier to tackle, take small steps to reach the final outcome and enjoy the process!
