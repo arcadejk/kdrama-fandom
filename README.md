@@ -101,8 +101,7 @@ The website has been successfully deployed to GitHub Pages. To replicate this pr
 2. In the source section drop-down menu, choose the Master Branch.
 3. After selecting the master branch, a link to the completed website will be provided.
 
-You can access the live link to the deployed website here: [K-Drama React Fandom].
-The live link can be found here - https://github.com/arcadejk/kdrama-fandom/blob/main/index.html
+You can access the live link to the deployed website here: [K-Drama React Fandom]. - https://github.com/arcadejk/kdrama-fandom/blob/main/index.html
 
 # Credits
 
