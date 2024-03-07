@@ -311,7 +311,7 @@ footer {
 }
 
 footer li {
-  display: inline-flex;,
+  display: inline-flex;
   justify-content: space-evenly;
 }
 
@@ -633,7 +633,7 @@ hr {
  }
  }
  
-@media only screen and (max-width: 280px) {
+@media only screen and (max-width: 280px), (max-width: 421px)  {
    #logo {
     padding-left: .5rem;
     font-size: 18px;
