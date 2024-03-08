@@ -1,829 +1,720 @@
-/* Google fonts import */
-@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300&family=Oswald:wght@200;300;400;500;600;700&display=swap');
-
 /* Base reset */
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-  }
 
-  /* Header */
-header {
-  background-color: #be3144;
-  color: #ffffff;
-  position: fixed;
-  top: 0;
-  z-index: 1000;
-  width: 100%;
-  box-shadow: 0 2px 2px #3a3a3a;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
+ * {
+     margin: 0;
+     padding: 0;
+     box-sizing: border-box;
 }
 
-header a, table a, .terms-text a {
-  text-decoration: none;
-  color: inherit;
-}
-
-#logo {
-    padding-left: 7rem;
-    font-size: 40px;
-    flex-grow: 1;
-  }
-
-  /* Navbar styles with dropdown element */
-  #menu-control, .menu-icon {
-    display: none;
-    }
-
-  .nav {
-    display: flex;
-    justify-content: flex-end;
-    position: fixed;
-    width: 100%;
-    background: rgba(0, 0, 255, 0);
-    color: #ffffff;
-    padding-right: 3rem;
-    font-size: 25px;
-    font-weight: bold; 
-  }
-  
-  .nav-list {
-    display: flex;
-    margin-right: 2rem;
-    justify-content: space-between;
-    }
-
-  .nav-list li {
-    margin-right: 50px;
-}
-
-.nav-list a:hover {
-  background: rgb(235, 145, 160);
-}
-
-  /* removing the bullet points */
-  ul {
-    list-style-type: none;
-}
-
-body {
-    display: flex;
-    flex-direction: column;
-    width: 100%
-}
-
-/* Main content */
-main {
-  /* Expand the main element to shift the footer downwards */
-  flex: 1 0 auto;
-  position: relative;
-  display: flex;
-  flex-direction: column;
-  flex-grow: 1;
-  overflow: auto;
-}
-
-#hidden-h2, .last-welcome-text h2, #movies h2, .last-section h2 {
-  display: none;
-}
-
-/* Styling the welcome-text-article */
-  .welcome-text {
-    font-family: 'Baskervville', serif;
-    color: linen;
-    background-color: rgb(20, 30, 40);
-    padding-left: 25vh;
-    padding-right: 25vh;
-    padding-top: 30px;
-    padding-bottom: 30px;
-  }
-  
-  .welcome-text h3 {
-    padding-top: 30px;
-    padding-bottom: 30px;
-    color: orangered;
-  } 
-
-  #second-p {
-    padding-top: 30px;
-  }
-
-  .welcome-video {
-    display: flex;
-    justify-content: center;
-    padding: 60px;
-  }
-
-  .welcome-text-article {
-  grid-column: 2 / 3;
-  font-size: 1.4rem;
-  letter-spacing: 0.6px;
-  column-width: 25rem;
-  text-align: justify;
-  }
-
-  .welcome-text-title {
-    text-align: center;
-    color: orangered;
-    font-size: 3rem;
-    padding-top: 25px;
-  }
-  
-  .welcome-text-subtitle {
-    font-size: 2rem;
-    color: orangered;
-    text-align: center;
-    padding-bottom: 25px;
-  }
-
-  .first-paragraph::first-letter {
-    font-size: 6rem;
-    color: orangered;
-    float: left;
-    margin-right: 1rem;
-  }
-
-  .list-movies ul {
-    display: grid;
-    grid-template-columns: 2fr 2fr;
-    column-gap: 3rem;
-    margin-bottom: 3rem;
-    font-size: 18px;
-  }
-  
-  .list-movies h3 {
-    text-align: center;
-    color: orangered;
-    font-size: 2.3rem;
-    padding-top: 75px;
-  }
-
-  .list-movies-first-p {
-    font-size: 1rem;
-    text-align: center;
-    padding-bottom: 30px;
-  }
-
-  .lists {
-    list-style-type: none;
-    margin-top: 2rem;
-    padding-left: 25vh;
-    padding-right: 25vh;
-  }
-  
-  .lists li {
-    margin-bottom: 1.5rem;
-    
-  }
-  
-  .list-title, .list-subtitle {
-    color: orangered;
-  }
-
-/* Styling the actors photos */
-#actors {
-    font-family: 'Baskervville', serif;
-    color: linen;
-    background-color: rgb(20, 30, 40);
-    margin-top: 0;
-}
-
-#actors h2 {
-    font-size: 40px;
-    text-align: center;
-    color: orangered;
-    padding-top: 20px;
-    font-weight: bold;
-}
-
-.actors {
-  display: flex;
-  flex-direction: row;
-  flex-wrap: nowrap;
-  margin-right: 75px;
-  margin-left: 75px;
-  padding-top: 30px;
-  gap: 14px;
-}
-
-.actors img {
-  width: 200px;
-  height: 300px;
-  background: url('') no-repeat top center / cover;
-}
-
-.actors p, .movies p {
-  font-size: 20px;
-  text-align: center;
-  font-weight: bold;
-}
-
-/* Styling movies section */
-#movies {
-    font-family: 'Baskervville', serif;
-    color: linen;
-    background-color: rgb(20, 30, 40);
-    margin-top: 0;
-    padding-top: 30px;
-    padding-left: 75px;
-    padding-right: 75px;
-    padding-bottom: 70px;
-    position: relative;
-}
-
-.movies {
-  display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
-  gap: 15px;
-  justify-content: center;
-  align-items: center;
-}
-
-.movies img {
-  width: 400px;
-  height: 240px;
-  background: url('') no-repeat top center / cover;
-}
-
-/* Styling the last index section */
-.last-section {
-  background: #45567d;
-  padding: 0;
-}
-
-table {
-  border-collapse: collapse;
-  margin: 15px;
-  padding: 25px;
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-  align-items: center;
-  font-size: 25px;
-}
-
-table a:hover {
-  background: rgb(102, 111, 235);
-  }
-
-th, td {
-  padding-right: 28px;
-  padding-left: 28px;
-  padding-top: 15px;
-  padding-bottom: 0;
-  text-align: center;
-  color: #ffffff;
-}
-
-/* Define the animation */
-@keyframes grow {
-  from {
-    transform: scale(1);
-  }
-  to {
-    transform: scale(1.2);
-  }
-}
-
-/* Apply the animation on hover */
-.actors img:hover, .movies img:hover  {
-  animation: grow 0.3s ease;
-  text-decoration: none;
-}
-
-/* Footer */
-
-footer {
-	background-color: rgb(223, 162, 223);
-  text-align: center;
-  padding: 1em;
-  display: flex;
-  justify-content: space-evenly;
-  list-style-type: none;
-  position: relative;
-  font-size: 20px;
-  font-family: Arial, Helvetica, sans-serif;
-  font-weight: bold;
-}
-
-footer li {
-  display: inline-flex;
-  justify-content: space-evenly;
-}
-
-footer i {
-  font-size: 140%;
-  padding: 2%;
-  color: #3a3a3a;
-}
-
-footer p>a {
-  text-decoration: none;
-  color: #3a3a3a;
-}
-
-#footer-elements a:hover {
-  background: rgb(228, 181, 215);
-}
-
-/* Styling the Signup page */
-.signup {
-  width: 100%;
-  margin: 0;
-  background-color: #1b1b32;
-  color: #f5f6f7;
-  font-family: Tahoma;
-  font-size: 16px;
-  display: flex;
-}
-
-.signup h2, .signup p {
-  margin: 1em auto;
-  text-align: center;
-  padding-top: 20px;
-}
-
-form {
-  max-width: 500px;
-  min-width: 300px;
-  margin: 150px;
-  align-items: center;
-}
-
-.signup img {
-width: 800px;
-}
-
-fieldset {
-  border: none;
-  padding: 2rem 0;
-  border-bottom: 3px solid #3b3b4f;
-}
-
-fieldset:last-of-type {
-  border-bottom: none;
-}
-
-.signup label {
-  display: block;
-  margin: 0.5rem 0;
-}
-
-input,
-textarea,
-select {
-  margin: 10px 0 0 0;
-  width: 100%;
-  min-height: 2em;
-}
-
-input, textarea {
-  background-color: #0a0a23;
-  border: 1px solid #0a0a23;
-  color: #ffffff;
-}
-
-.inline {
-  width: unset;
-  margin: 0 0.5em 0 0;
-  vertical-align: middle;
-}
-
-label[for="terms-and-conditions"] a {
-  color: white;
-  text-decoration: underline;
-  font-weight: bold;
-}
-
-input[type="submit"] {
-  display: block;
-  width: 40%;
-  margin: 1em auto;
-  height: 2em;
-  font-size: 1.1rem;
-  background-color: #3b3b4f;
-  border-color: white;
-}
-
-input[type="file"] {
-  padding: 1px 2px;
-}
-
-.inline {
-  display: inline; 
-}
-
-/* Styling the terms-text and forum-text*/
-.terms-text, .forum-text {
-  font-family: 'Baskervville', serif;
-  color: linen;
-  background-color: rgb(20, 30, 40);
-  padding-left: 15%;
-  padding-right: 15%;
-  padding-top: 10%;
-  padding-bottom: 10%;
-}
-
-.terms-text h1, .forum-text h1 {
-  padding-top: 30px;
-  padding-bottom: 10px;
-  color: orangered;
-  font-size: 4.3vh;
-} 
-
-.terms-text h2, .forum-text h2 {
-  padding-top: 30px;
-  padding-bottom: 10px;
-  color: orangered;
-} 
-
-.terms-text p, .forum-text p {
-  padding-top: 15px;
-  padding-bottom: 10px;
-  font-size: 25px;
-  line-height: 1.5;
-  text-align: justify;
-}
-
-.terms-text ul, .forum-text ul {
-  list-style-type: disc;
-  font-size: 25px;
-  padding-top: 15px;
-  padding-bottom: 10px;
-}
-
-.terms-text li, .forum-text li {
-  padding-top: 15px;
-  padding-bottom: 10px;
-  text-align: justify;
-}
-
-hr {
-  margin-top: 40px;
-}
-
-/* Actors' forum page styling  */
-.image1-actor-forum img {
-  float: right;
-  width: 500px;
-  height: 650px;
-  padding: 40px;
-}
-
-.image2-actor-forum img {
-  float: left;
-  width: 500px;
-  height: 650px;
-  padding: 40px;
-}
-
-@media only screen and (max-width: 2560px) {
-  .welcome-text-article {
-   padding: 0;
-  }
- 
-   .actors {
-     justify-content: center;
-     align-items: center;
-   }
- 
-   .signup {
-     justify-content: center;
-     align-items: center;
-   }
- }
- 
- @media only screen and (max-width: 1024px) {
-   #logo {
-     padding-left: 60px;
-   }
- 
-   .nav {
+/* Header */
+ header {
+     background-color: #be3144;
+     color: #ffffff;
+     position: fixed;
+     top: 0;
+     z-index: 1000;
+     width: 100%;
+     box-shadow: 0 2px 2px #3a3a3a;
      display: flex;
-     padding-right: .2rem;
-     font-size: 20px;
+     justify-content: space-between;
+     align-items: center;
+}
+ header a, table a, .terms-text a {
+     text-decoration: none;
+     color: inherit;
+}
+ #logo {
+     padding-left: 7rem;
+     font-size: 40px;
+     flex-grow: 1;
+}
+/* Navbar styles with dropdown element */
+ #menu-control, .menu-icon {
+     display: none;
+}
+ .nav {
+     display: flex;
+     justify-content: flex-end;
+     position: fixed;
+     width: 100%;
+     color: #ffffff;
+     padding-right: 3rem;
+     font-size: 25px;
      font-weight: bold;
-   }
- 
-   .nav-list {
+}
+ .nav-list {
      display: flex;
-     margin-right: 0;
-     }
- 
-   .welcome-text {
-     padding-left: 55px;
-     padding-right: 55px;
+     margin-right: 2rem;
+     justify-content: space-between;
+}
+ .nav-list li {
+     margin-right: 50px;
+}
+ .nav-list a:hover {
+     background: #EB91A0;
+}
+/* removing the bullet points */
+ ul {
+     list-style-type: none;
+}
+ body {
+     display: flex;
+     flex-direction: column;
+     width: 100% 
+}
+/* Main content */
+ main {
+    /* Expand the main element to shift the footer downwards */
+     flex: 1 0 auto;
+     position: relative;
+     display: flex;
+     flex-direction: column;
+     flex-grow: 1;
+     overflow: auto;
+}
+ #hidden-h2, .last-welcome-text h2, #movies h2, .last-section h2 {
+     display: none;
+}
+/* Styling the welcome-text-article */
+ .welcome-text {
+     font-family: 'Baskervville', serif;
+     color: linen;
+     background-color: rgb(20, 30, 40);
+     padding-left: 25vh;
+     padding-right: 25vh;
      padding-top: 30px;
      padding-bottom: 30px;
-   }
- 
-   .welcome-video {
+}
+ .welcome-text h3 {
+     padding-top: 30px;
+     padding-bottom: 30px;
+     color: #FF4500;
+}
+ #second-p {
+     padding-top: 30px;
+}
+ .welcome-video {
      display: flex;
      justify-content: center;
      padding: 60px;
-   }
- 
-   .welcome-text-article {
-   grid-column: 2 / 3;
-   font-size: 1.4rem;
-   letter-spacing: 0.6px;
-   column-width: 25rem;
-   text-align: justify;
-   }
-   
-   .list-movies ul {
-     display: block;
-     padding-left: 5vh;
-     padding-right: 5vh;
+}
+ .welcome-text-article {
+     grid-column: 2 / 3;
+     font-size: 1.4rem;
+     letter-spacing: 0.6px;
+     column-width: 25rem;
      text-align: justify;
-     column-count: 3;
-   }
- 
-  #actors {
-     align-items: center;
+}
+ .welcome-text-title {
      text-align: center;
-   }
- 
-   .actors {
-     display: grid;
-     grid-template-columns: 1fr 1fr 1fr; 
-     grid-gap: 2px;  
-     padding: 50px;
-   }
- 
-   .actors img {
-     padding-top: 40px;
-   }
- 
-  
- }
- 
- @media only screen and (max-width: 768px) {
- 
-   #logo {
-     padding: 1rem;
-     font-size: 25px;
-   }
- 
-   .nav {
-       display: flex;
-       padding-right: .2rem;
-       font-size: 20px;
-       font-weight: bold;
-     }
-   
-   .nav-list {
-     display: flex;
-     margin-right: 0;
-     }
- 
-   .welcome-text {
-     padding-left: 35px;
-     padding-right: 35px;
-     padding-top: 30px;
-     padding-bottom: 30px;
-   }
- 
-   .welcome-text-article {
-   grid-column: 2 / 3;
-   font-size: 1.4rem;
-   letter-spacing: 0.6px;
-   column-width: 25rem;
-   text-align: justify;
-   }
- 
-   .actors {
-     display: grid;
-     grid-template-columns: 1fr 1fr 1fr; 
-     padding-bottom: 20px;
-   }
- 
-   .actors img {
+     color: #FF4500;
+     font-size: 3rem;
      padding-top: 25px;
-   }
- 
-   .list-movies ul {
-     display: block;
-     padding-left: 1vh;
-     padding-right: 1vh;
-     text-align: justify;
-   }
- 
-   .welcome-video {
-     padding: 20px;
-     display: flex;
-   }
-     .welcome-video video {
-     width: 250px;
-     padding: 10px;
-   }
- 
-   /* signup styling elements */
-   .signup {
-   display: block;
-   }
- 
- .signup img {
- width: 100%;
- display: block;
- }
- }
- 
-@media only screen and (max-width: 280px), (max-width: 421px)  {
-   #logo {
-    padding-left: .5rem;
-    font-size: 18px;
-  }
-
-   .menu-icon {
-    display: block;
-    width: 30px;
-    height: 30px;
-    cursor: pointer;
-    padding-top: 8px;
-    padding-right: .5rem;
-    }
-
-.nav {
-      display: none;
-      position: absolute;
-      top: 100%;
-      left: 0;
-      color: black;
-      background-color: white;
-      border: 1px solid black;
-    }
-
-    .nav-list {
-      font-size: 13px;
-      padding: 0;
-      margin: 0;
-    }    
-
-      .nav li {
-      display: inline-block;
-      margin-right: 10px; 
-      padding-left: 10px;
-    }
-  
-   .nav li:last-child {
-      margin-right: 0;
-    }
-
-    .nav-list a:hover {
-      text-decoration: rgb(233, 129, 129);
-    }
-
-    #menu-control:checked ~ .nav {
-      display: block;
-    }
-
-/* Styling the Welcome-section */
-  #welcome-section {
-  padding-top: 25px;
-  }
-
-  .welcome-text {
-    padding-left: 5vh;
-    padding-right: 5vh;
-    padding-top: 10px;
-    padding-bottom: 20px;
-  }
-
-  .welcome-text {
-    margin: 0;
-  }
-
-  .welcome-text-title {
-    font-size: 1.5rem;
-  }
-
+}
+ .welcome-text-subtitle {
+     font-size: 2rem;
+     color: #FF4500;
+     text-align: center;
+     padding-bottom: 25px;
+}
+ .first-paragraph::first-letter {
+     font-size: 6rem;
+     color: #FF4500;
+     float: left;
+     margin-right: 1rem;
+}
+ .list-movies ul {
+     display: grid;
+     grid-template-columns: 2fr 2fr;
+     column-gap: 3rem;
+     margin-bottom: 3rem;
+     font-size: 18px;
+}
  .list-movies h3 {
-    font-size: 1.5rem;
-    padding-top: 20px;
-  }
-  
-  .welcome-text-subtitle {
-    font-size: 1rem;
-    padding-top: 15px;
-  }
-
-  .welcome-text-article {
-    font-size: 1.1rem;
-  }
-
-  .welcome-video {
-    padding: 20px;
-  }
-    .welcome-video video {
-    width: 250px;
-    padding: 10px;
-  }
-
-  .list-movies ul {
-    display: block;
-    padding-left: 1vh;
-    padding-right: 1vh;
-    text-align: justify;
-    column-count: 1;
-  }
-  
-  #actors h2 {
-    font-size: 1.5rem;
-  }
-
-  .actors {
-    display: grid;
-    grid-template-columns: 1fr 1fr; 
-    grid-gap: 8px;  
-    justify-content: center;
-    align-items: center;
-  }
- 
-/* Resizing images */
-.actors img {
-  width: 120px;
-  height: 180px;
+     text-align: center;
+     color: #FF4500;
+     font-size: 2.3rem;
+     padding-top: 75px;
 }
-.actors p {
-  padding: 5px;
-  font-size: 15px;
+ .list-movies-first-p {
+     font-size: 1rem;
+     text-align: center;
+     padding-bottom: 30px;
 }
-
-.movies img {
-  width: 250px;
-  height: 150px;
+ .lists {
+     list-style-type: none;
+     margin-top: 2rem;
+     padding-left: 25vh;
+     padding-right: 25vh;
 }
-
-#movies {
-  padding-bottom: 40px;
+ .lists li {
+     margin-bottom: 1.5rem;
 }
-
-/* Resizing section before the footer */
-  table {
-  margin: 5px;
-  padding: 5px;
-  border-collapse: collapse;
-  font-size: 10px;
-  }
-  
-  th, td {
-    padding: 5px;
-  }
-
-  table a:hover {
-    background: rgb(102, 111, 235);
+ .list-title, .list-subtitle {
+     color: #FF4500;
+}
+/* Styling the actors photos */
+ #actors {
+     font-family: 'Baskervville', serif;
+     color: #FAF0E6;
+     background-color: #141E28;
+     margin-top: 0;
+}
+ #actors h2 {
+     font-size: 40px;
+     text-align: center;
+     color: #FF4500;
+     padding-top: 20px;
+     font-weight: bold;
+}
+ .actors {
+     display: flex;
+     flex-direction: row;
+     flex-wrap: nowrap;
+     margin-right: 75px;
+     margin-left: 75px;
+     padding-top: 30px;
+     gap: 14px;
+}
+ .actors img {
+     width: 200px;
+     height: 300px;
+     background: url('') no-repeat top center / cover;
+}
+ .actors p, .movies p {
+     font-size: 20px;
+     text-align: center;
+     font-weight: bold;
+}
+/* Styling movies section */
+ #movies {
+     font-family: 'Baskervville', serif;
+     color: #FAF0E6;
+     background-color: #141E28;
+     margin-top: 0;
+     padding-top: 30px;
+     padding-left: 75px;
+     padding-right: 75px;
+     padding-bottom: 70px;
+     position: relative;
+}
+ .movies {
+     display: flex;
+     flex-direction: row;
+     flex-wrap: wrap;
+     gap: 15px;
+     justify-content: center;
+     align-items: center;
+}
+ .movies img {
+     width: 400px;
+     height: 240px;
+     background: url('') no-repeat top center / cover;
+}
+/* Styling the last index section */
+ .last-section {
+     background: #45567d;
+     padding: 0;
+}
+ table {
+     border-collapse: collapse;
+     margin: 15px;
+     padding: 25px;
+     display: flex;
+     flex-direction: row;
+     justify-content: center;
+     align-items: center;
+     font-size: 25px;
+}
+ table a:hover {
+     background: #666FEB;
+}
+ th, td {
+     padding-right: 28px;
+     padding-left: 28px;
+     padding-top: 15px;
+     padding-bottom: 0;
+     text-align: center;
+     color: #ffffff;
+}
+/* Defining the animation */
+ @keyframes grow {
+     from {
+         transform: scale(1);
     }
-
-#footer-elements, table {
-display: flex;
-flex-direction: row;
-flex-wrap: wrap;
-padding: 5px;
+     to {
+         transform: scale(1.2);
+    }
 }
-
-#footer-elements i, #footer-elements p, #movies p {
-  font-size: 15px;
+/* Applying the animation on hover */
+ .actors img:hover, .movies img:hover {
+     animation: grow 0.3s ease;
+     text-decoration: none;
 }
-
+/* Footer */
+ footer {
+     background-color: #DFA1DF;
+     text-align: center;
+     padding: 1em;
+     display: flex;
+     justify-content: space-evenly;
+     list-style-type: none;
+     position: relative;
+     font-size: 20px;
+     font-family: Arial, Helvetica, sans-serif;
+     font-weight: bold;
+}
+ footer li {
+     display: inline-flex;
+     justify-content: space-evenly;
+}
+ footer i {
+     font-size: 140%;
+     padding: 2%;
+     color: #3a3a3a;
+}
+ footer p>a {
+     text-decoration: none;
+     color: #3a3a3a;
+}
+ #footer-elements a:hover {
+     background: #E4B5D7;
+}
 /* Styling the Signup page */
-.signup {
-  display: block;
+ .signup {
+     width: 100%;
+     margin: 0;
+     background-color: #1b1b32;
+     color: #f5f6f7;
+     font-family: Tahoma;
+     font-size: 16px;
+     display: flex;
+}
+ .signup h2, .signup p {
+     margin: 1em auto;
+     text-align: center;
+     padding-top: 20px;
+}
+ form {
+     max-width: 500px;
+     min-width: 300px;
+     margin: 150px;
+     align-items: center;
+}
+ .signup img {
+     width: 800px;
+}
+ fieldset {
+     border: none;
+     padding: 2rem 0;
+     border-bottom: 3px solid #3b3b4f;
+}
+ fieldset:last-of-type {
+     border-bottom: none;
+}
+ .signup label {
+     display: block;
+     margin: 0.5rem 0;
+}
+ input, textarea, select {
+     margin: 10px 0 0 0;
+     width: 100%;
+     min-height: 2em;
+}
+ input, textarea {
+     background-color: #0a0a23;
+     border: 1px solid #0a0a23;
+     color: #ffffff;
+}
+ .inline {
+     width: unset;
+     margin: 0 0.5em 0 0;
+     vertical-align: middle;
+}
+ label[for="terms-and-conditions"] a {
+     color: #ffffff;
+     text-decoration: underline;
+     font-weight: bold;
+}
+ input[type="submit"] {
+     display: block;
+     width: 40%;
+     margin: 1em auto;
+     height: 2em;
+     font-size: 1.1rem;
+     background-color: #3b3b4f;
+     border-color: #ffffff;
+}
+ input[type="file"] {
+     padding: 1px 2px;
+}
+ .inline {
+     display: inline;
+}
+/* Styling the terms-text and forum-text*/
+ .terms-text, .forum-text {
+     font-family: 'Baskervville', serif;
+     color: #FAF0E6;
+     background-color: #141E28;
+     padding-left: 15%;
+     padding-right: 15%;
+     padding-top: 10%;
+     padding-bottom: 10%;
+}
+ .terms-text h1, .forum-text h1 {
+     padding-top: 30px;
+     padding-bottom: 10px;
+     color: #FF4500;
+     font-size: 4.3vh;
+}
+ .terms-text h2, .forum-text h2 {
+     padding-top: 30px;
+     padding-bottom: 10px;
+     color: #FF4500;
+}
+ .terms-text p, .forum-text p {
+     padding-top: 15px;
+     padding-bottom: 10px;
+     font-size: 25px;
+     line-height: 1.5;
+     text-align: justify;
+}
+ .terms-text ul, .forum-text ul {
+     list-style-type: disc;
+     font-size: 25px;
+     padding-top: 15px;
+     padding-bottom: 10px;
+}
+ .terms-text li, .forum-text li {
+     padding-top: 15px;
+     padding-bottom: 10px;
+     text-align: justify;
+}
+ hr {
+     margin-top: 40px;
+}
+/* Actors' forum page styling */
+ .image1-actor-forum img {
+     float: right;
+     width: 500px;
+     height: 650px;
+     padding: 40px;
+}
+ .image2-actor-forum img {
+     float: left;
+     width: 500px;
+     height: 650px;
+     padding: 40px;
 }
 
-.signup h2, .signup p {
-  margin: 0;
-  text-align: center;
-  padding-top: 15px;
-  padding-right: 15px;
-  padding-bottom: 10px;
+/*Media Querie for larger screens and max-width: 2560px */
+ @media only screen and (max-width: 2560px) {
+     .welcome-text-article {
+         padding: 0;
+    }
+     .actors {
+         justify-content: center;
+         align-items: center;
+    }
+     .signup {
+         justify-content: center;
+         align-items: center;
+    }
 }
 
-form {
-  margin: 0;
-  padding: 15px;
+/*Media Querie for larger screens and max-width: 1024px */
+ @media only screen and (max-width: 1024px) {
+     #logo {
+         padding-left: 60px;
+    }
+     .nav {
+         display: flex;
+         padding-right: .2rem;
+         font-size: 20px;
+         font-weight: bold;
+    }
+     .nav-list {
+         display: flex;
+         margin-right: 0;
+    }
+     .welcome-text {
+         padding-left: 55px;
+         padding-right: 55px;
+         padding-top: 30px;
+         padding-bottom: 30px;
+    }
+     .welcome-video {
+         display: flex;
+         justify-content: center;
+         padding: 60px;
+    }
+     .welcome-text-article {
+         grid-column: 2 / 3;
+         font-size: 1.4rem;
+         letter-spacing: 0.6px;
+         column-width: 25rem;
+         text-align: justify;
+    }
+     .list-movies ul {
+         display: block;
+         padding-left: 5vh;
+         padding-right: 5vh;
+         text-align: justify;
+         column-count: 3;
+    }
+     #actors {
+         align-items: center;
+         text-align: center;
+    }
+     .actors {
+         display: grid;
+         grid-template-columns: 1fr 1fr 1fr;
+         grid-gap: 2px;
+         padding: 50px;
+    }
+     .actors img {
+         padding-top: 40px;
+    }
 }
 
-.signup img {
-width: 280px;
-display: block;
+/*Media Querie for medium screens, tablets and max-width: 780px */
+ @media only screen and (min-width: 780px) {
+     #logo {
+         padding: 1rem;
+         font-size: 25px;
+    }
+     .nav {
+         display: flex;
+         padding-right: .2rem;
+         font-size: 20px;
+         font-weight: bold;
+    }
+     .nav-list {
+         display: flex;
+         margin-right: 0;
+    }
 }
 
-fieldset {
-  width: 90%;
-  padding: 1px;
+/*Media Querie for medium screens and max-width: 768px */
+ @media only screen and (max-width: 768px) {
+     #logo {
+         padding: 1rem;
+         font-size: 25px;
+    }
+     .nav {
+         display: flex;
+         padding-right: .2rem;
+         font-size: 20px;
+         font-weight: bold;
+    }
+     .nav-list {
+         display: flex;
+         margin-right: 0;
+    }
+     .welcome-text {
+         padding-left: 35px;
+         padding-right: 35px;
+         padding-top: 30px;
+         padding-bottom: 30px;
+    }
+     .welcome-text-article {
+         grid-column: 2 / 3;
+         font-size: 1.4rem;
+         letter-spacing: 0.6px;
+         column-width: 25rem;
+         text-align: justify;
+    }
+     .actors {
+         display: grid;
+         grid-template-columns: 1fr 1fr 1fr;
+         padding-bottom: 20px;
+    }
+     .actors img {
+         padding-top: 25px;
+    }
+     .list-movies ul {
+         display: block;
+         padding-left: 1vh;
+         padding-right: 1vh;
+         text-align: justify;
+    }
+     .welcome-video {
+         padding: 20px;
+         display: flex;
+    }
+     .welcome-video video {
+         width: 250px;
+         padding: 10px;
+    }
+    /* signup styling elements */
+     .signup {
+         display: block;
+    }
+     .signup img {
+         width: 100%;
+         display: block;
+    }
 }
 
-.signup label {
-  display: block;
-  margin: 0.5rem 0;
-}
-
-label[for="terms-and-conditions"] {
-  font-size: 0.8em;
-}
+/*Media Querie for small screens, 280px, 421px and 429px */
+ @media only screen and (max-width: 280px), (max-width: 421px), (max-width: 429px) {
+     #logo {
+         padding-left: .5rem;
+         font-size: 18px;
+    }
+     .menu-icon {
+         display: block;
+         width: 30px;
+         height: 30px;
+         cursor: pointer;
+         padding-top: 8px;
+         padding-right: .5rem;
+    }
+     .nav {
+         display: none;
+         position: absolute;
+         top: 100%;
+         left: 0;
+         color: #000000;
+         background-color: #ffffff;
+         border: 1px solid #000000;
+    }
+     .nav-list {
+         font-size: 13px;
+         padding: 0;
+         margin: 0;
+    }
+     .nav li {
+         display: inline-block;
+         margin-right: 10px;
+         padding-left: 10px;
+    }
+     .nav li:last-child {
+         margin-right: 0;
+    }
+     .nav-list a:hover {
+         text-decoration: #E98181;
+    }
+     #menu-control:checked ~ .nav {
+         display: block;
+    }
+    /* Styling the Welcome-section */
+     #welcome-section {
+         padding-top: 25px;
+    }
+     .welcome-text {
+         padding-left: 5vh;
+         padding-right: 5vh;
+         padding-top: 10px;
+         padding-bottom: 20px;
+    }
+     .welcome-text {
+         margin: 0;
+    }
+     .welcome-text-title {
+         font-size: 1.5rem;
+    }
+     .list-movies h3 {
+         font-size: 1.5rem;
+         padding-top: 20px;
+    }
+     .welcome-text-subtitle {
+         font-size: 1rem;
+         padding-top: 15px;
+    }
+     .welcome-text-article {
+         font-size: 1.1rem;
+    }
+     .welcome-video {
+         padding: 20px;
+    }
+     .welcome-video video {
+         width: 250px;
+         padding: 10px;
+    }
+     .list-movies ul {
+         display: block;
+         padding-left: 1vh;
+         padding-right: 1vh;
+         text-align: justify;
+         column-count: 1;
+    }
+     #actors h2 {
+         font-size: 1.5rem;
+    }
+     .actors {
+         display: grid;
+         grid-template-columns: 1fr 1fr;
+         grid-gap: 8px;
+         justify-content: center;
+         align-items: center;
+    }
+    /* Resizing images */
+     .actors img {
+         width: 120px;
+         height: 180px;
+    }
+     .actors p {
+         padding: 5px;
+         font-size: 15px;
+    }
+     .movies img {
+         width: 250px;
+         height: 150px;
+    }
+     #movies {
+         padding-bottom: 40px;
+    }
+    /* Resizing section before the footer */
+     table {
+         margin: 5px;
+         padding: 5px;
+         border-collapse: collapse;
+         font-size: 10px;
+    }
+     th, td {
+         padding: 5px;
+    }
+     table a:hover {
+         background: #666FEB;
+    }
+     #footer-elements, table {
+         display: flex;
+         flex-direction: row;
+         flex-wrap: wrap;
+         padding: 5px;
+    }
+     #footer-elements i, #footer-elements p, #movies p {
+         font-size: 15px;
+    }
+    /* Styling the Signup page */
+     .signup {
+         display: block;
+    }
+     .signup h2, .signup p {
+         margin: 0;
+         text-align: center;
+         padding-top: 15px;
+         padding-right: 15px;
+         padding-bottom: 10px;
+    }
+     form {
+         margin: 0;
+         padding: 15px;
+    }
+     .signup img {
+         width: 280px;
+         display: block;
+    }
+     fieldset {
+         width: 90%;
+         padding: 1px;
+    }
+     .signup label {
+         display: block;
+         margin: 0.5rem 0;
+    }
+     label[for="terms-and-conditions"] {
+         font-size: 0.8em;
+    }
 }
