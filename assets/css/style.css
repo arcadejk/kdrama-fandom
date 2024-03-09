@@ -4,7 +4,6 @@
      margin: 0;
      padding: 0;
      box-sizing: border-box;
-     overflow: auto;
 }
 
 /* Header */
@@ -39,7 +38,6 @@
      position: fixed;
      width: 100%;
      color: #ffffff;
-     padding-right: 3rem;
      font-size: 25px;
      font-weight: bold;
 }
@@ -558,15 +556,15 @@
     }
 }
 
-/*Media Querie for small screens, 280px, 421px and 429px */
- @media only screen and (max-width: 280px), (max-width: 421px), (max-width: 429px) {
-    main {
-        padding-top: 47px;
+/*Media Querie for small screens with 280px */
+ @media only screen and (max-width: 280px) {
+    header {
+        width: 280px;
     }
 
     #logo {
          padding-left: .5rem;
-         font-size: 18px;
+         font-size: 15px;
     }
      .menu-icon {
          display: block;
@@ -574,8 +572,9 @@
          height: 30px;
          cursor: pointer;
          padding-top: 8px;
-        
+         margin-right: 20px;
     }
+    
      .nav {
          display: none;
          position: absolute;
@@ -588,16 +587,18 @@
      .nav-list {
          font-size: 13px;
          padding: 0;
-         margin: 0;
     }
      .nav li {
-         display: inline-block;
+         display: block;
          margin-right: 10px;
          padding-left: 10px;
     }
      .nav li:last-child {
          margin-right: 0;
     }
+    .nav li:first-child {
+        margin-right: 10px;
+   }
      .nav-list a:hover {
          text-decoration: #E98181;
     }
@@ -700,7 +701,7 @@
      .signup h2, .signup p {
          margin: 0;
          text-align: center;
-         padding-top: 15px;
+         padding-top: 45px;
          padding-right: 15px;
          padding-bottom: 10px;
     }
