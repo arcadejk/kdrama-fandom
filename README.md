@@ -109,6 +109,35 @@ These existing features contribute to creating a comprehensive and user-friendly
 
 8. **Accessibility Improvements:** We are committed to ensuring that our website is accessible to all users, including those with disabilities. We will work to improve accessibility features such as screen reader compatibility, keyboard navigation, and alternative text for media content.
 
+
+# 5. Typography and Color Scheme
+
+## Typography
+
+For the typography of our fandom website, we have chosen a clean and modern font to ensure readability and visual appeal. We use the following font styles throughout the website:
+
+- **Heading Font:** We use the "Baskervville" font family for headings and titles, with a bold and vibrant color of #FF4500 to make them stand out and grab the attention of the users.
+
+- **Body Font:** For the body text and paragraphs, we use the "Baskervville" font family in a standard weight, ensuring legibility and clarity for easy reading.
+
+## Color Scheme
+
+Our color scheme is carefully chosen to create a visually pleasing and harmonious experience for our users. We use the following colors consistently throughout the website:
+
+- **Header Background Color:** #be3144: This deep red color creates a bold and striking header background, providing a visually appealing contrast to the content and navigation elements.
+
+- **Header Text Color:** #ffffff: We use white text on the header background to ensure high contrast and readability.
+
+- **Hover Background Color:** #EB91A0: When users hover over interactive elements such as nav links or buttons, we use a soft pink color to provide visual feedback and enhance user engagement.
+
+- **Article Background Color:** #333333: The dark gray background color of #333333 is used for article sections, providing a neutral backdrop that highlights the content and images.
+
+- **Titles Color:** #FF4500: We use a vibrant orange color for titles and headings to create visual hierarchy and draw attention to important information.
+
+- **Footer Background Color:** #DFA1DF: The light purple background color of #DFA1DF is used for the footer section, creating a cohesive and harmonious color palette that complements the overall design of the website.
+
+By combining these typography styles and colors, we aim to create a visually appealing and user-friendly experience for our audience, ensuring readability, accessibility, and aesthetic appeal across all aspects of our fandom website.
+
 # Testing
 
 * I tested this page works in different browsers: Chrome, Firefox, Safari.
