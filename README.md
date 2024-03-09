@@ -203,9 +203,9 @@ Our fandom website leverages a variety of technologies to create a seamless and 
 
 - **Reason for Use:** Gitpod is an online integrated development environment (IDE) that allows us to code, collaborate, and deploy our website from any device with an internet connection. We use Gitpod to streamline our development workflow, collaborate with team members in real-time, and access our codebase securely from anywhere, ensuring flexibility and efficiency in our development process.
 
-## 7.4.Balsaniq
+## 7.4.Balsamiq
 
-- **Reason for Use:** Balsaniq is a lightweight and modular CSS framework based on Balsaniq Design System that provides pre-designed components and styles for building responsive and accessible user interfaces. We use BalmUI to speed up the development process, ensure consistency in design across different components and pages, and optimize our website for various screen sizes and devices.
+- **Reason for Use:** Balsamiq is a lightweight and modular CSS framework based on Balsamiq Design System that provides pre-designed components and styles for building responsive and accessible user interfaces. We use BalmUI to speed up the development process, ensure consistency in design across different components and pages, and optimize our website for various screen sizes and devices.
 
 ## 7.5.GitHub
 
