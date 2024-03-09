@@ -138,6 +138,81 @@ Our color scheme is carefully chosen to create a visually pleasing and harmoniou
 
 By combining these typography styles and colors, we aim to create a visually appealing and user-friendly experience for our audience, ensuring readability, accessibility, and aesthetic appeal across all aspects of our fandom website.
 
+# 6. Wireframes
+
+Wireframes are an essential part of the design process for our fandom website. They serve as visual blueprints that outline the layout, structure, and functionality of each page before the actual design and development work begins. Here are the wireframes we used for key sections of our website:
+
+## 6.1. Homepage
+
+- The homepage wireframe outlines the overall layout of the page, including the header, navigation menu, featured content section, and footer.
+- It shows the placement of elements such as the logo, search bar, featured images or sliders, and call-to-action buttons to encourage user engagement.
+- The wireframe helps visualize the flow of information and user interactions, ensuring a clear and intuitive user experience.
+
+  ![Home](https://github.com/arcadejk/kdrama-fandom/assets/157130011/300edfa8-8d62-4dd8-a830-3a6130a0b3ff)
+
+
+## 6.2. Forum Section
+
+- The forum section wireframe illustrates the layout of individual forum pages, including the main content area, sidebar, and navigation elements.
+- It shows the arrangement of forum topics, discussion threads, user profiles, and moderation tools to facilitate smooth navigation and interaction within the forum.
+- The wireframe highlights key features such as user avatars, post previews, reply buttons, and search functionality to enhance the user experience.
+
+  ![Actor's page news and forum](https://github.com/arcadejk/kdrama-fandom/assets/157130011/7cac0eff-1b9c-431d-89c5-c8fe1085a0d7)
+
+
+## 6.3. Actor and Movie Pages
+
+- The actor and movie pages wireframes outline the structure of dedicated pages for showcasing information about specific actors and movies.
+- They include sections for biographies, filmographies, image galleries, and related content to provide comprehensive information to users.
+- The wireframes help organize content in a visually appealing and user-friendly manner, allowing users to easily explore and discover information about their favorite actors and movies.
+
+  ![Movie's page presentation](https://github.com/arcadejk/kdrama-fandom/assets/157130011/4a7489ce-8aa4-47ac-a7e8-d2fcfe262cae)
+
+
+## 6.4. User Profile and Account Settings
+
+- The user profile and account settings wireframes detail the layout of pages where users can manage their profiles, preferences, and account settings.
+- They include sections for updating profile information, changing account settings, managing notifications, and viewing activity history.
+- The wireframes ensure that users have easy access to the tools and features they need to personalize their experience and engage with the website effectively.
+
+  ![Signup Page](https://github.com/arcadejk/kdrama-fandom/assets/157130011/9503ec31-1268-4ab5-b6d5-e8568d7973b1)
+
+
+## 6.5. Mobile Responsiveness
+
+- In addition to desktop wireframes, we also create wireframes for mobile devices to ensure that our website is fully responsive and optimized for different screen sizes.
+- The mobile wireframes focus on simplifying the layout, prioritizing key content, and optimizing user interactions for touch-based devices.
+- They help ensure a consistent and seamless user experience across desktops, tablets, and smartphones, catering to the needs of users accessing the website from various devices.
+
+Overall, wireframes play a crucial role in the design and development process of our fandom website, helping us visualize and refine the layout, functionality, and user experience to create a polished and user-friendly final product.
+
+
+# 7.Technologies Used
+
+Our fandom website leverages a variety of technologies to create a seamless and engaging user experience. Here are the key technologies we used and the reasons for their selection:
+
+## 7.1.HTML (HyperText Markup Language)
+
+- **Reason for Use:** HTML is the standard markup language for creating web pages and is essential for structuring the content of our website. We use HTML to define the layout, headings, paragraphs, images, and other elements of each webpage, ensuring a clear and organized presentation of information for our users.
+
+## 7.2.CSS (Cascading Style Sheets)
+
+- **Reason for Use:** CSS is used to style the visual presentation of our website, including layout, colors, fonts, and spacing. We use CSS to customize the appearance of HTML elements and create a visually appealing and cohesive design that aligns with our branding and enhances the user experience.
+
+## 7.3.Gitpod
+
+- **Reason for Use:** Gitpod is an online integrated development environment (IDE) that allows us to code, collaborate, and deploy our website from any device with an internet connection. We use Gitpod to streamline our development workflow, collaborate with team members in real-time, and access our codebase securely from anywhere, ensuring flexibility and efficiency in our development process.
+
+## 7.4.Balsaniq
+
+- **Reason for Use:** Balsaniq is a lightweight and modular CSS framework based on Balsaniq Design System that provides pre-designed components and styles for building responsive and accessible user interfaces. We use BalmUI to speed up the development process, ensure consistency in design across different components and pages, and optimize our website for various screen sizes and devices.
+
+## 7.5.GitHub
+
+- **Reason for Use:** GitHub is a popular platform for hosting and managing software development projects using the Git version control system. We use GitHub to store our codebase, track changes, collaborate with team members, and deploy our website. GitHub provides features such as pull requests, issues tracking, and project management tools that help streamline our development workflow and ensure transparency and accountability in our project management process.
+
+By leveraging these technologies, we are able to create a robust and user-friendly fandom website that delivers a seamless and engaging experience for our audience while maximizing efficiency and collaboration in our development process.
+
 # Testing
 
 * I tested this page works in different browsers: Chrome, Firefox, Safari.
