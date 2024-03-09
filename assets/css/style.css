@@ -4,6 +4,7 @@
      margin: 0;
      padding: 0;
      box-sizing: border-box;
+     overflow: auto;
 }
 
 /* Header */
@@ -60,7 +61,7 @@
  body {
      display: flex;
      flex-direction: column;
-     width: 100% 
+     width: 100%;
 }
 /* Main content */
  main {
@@ -70,11 +71,12 @@
      display: flex;
      flex-direction: column;
      flex-grow: 1;
-     overflow: auto;
 }
+
  #hidden-h2, .last-welcome-text h2, #movies h2, .last-section h2 {
      display: none;
 }
+
 /* Styling the welcome-text-article */
  .welcome-text {
      font-family: 'Baskervville', serif;
@@ -558,7 +560,11 @@
 
 /*Media Querie for small screens, 280px, 421px and 429px */
  @media only screen and (max-width: 280px), (max-width: 421px), (max-width: 429px) {
-     #logo {
+    main {
+        padding-top: 47px;
+    }
+
+    #logo {
          padding-left: .5rem;
          font-size: 18px;
     }
@@ -568,7 +574,7 @@
          height: 30px;
          cursor: pointer;
          padding-top: 8px;
-         padding-right: .5rem;
+        
     }
      .nav {
          display: none;
@@ -678,13 +684,13 @@
      table a:hover {
          background: #666FEB;
     }
-     #footer-elements, table {
+     footer, table {
          display: flex;
          flex-direction: row;
          flex-wrap: wrap;
          padding: 5px;
     }
-     #footer-elements i, #footer-elements p, #movies p {
+     #footer-elements i, footer p, #movies p {
          font-size: 15px;
     }
     /* Styling the Signup page */
