@@ -348,26 +348,38 @@ The website was tested and confirmed to be supported across a range of screens a
 By conducting thorough testing and validation processes, I ensured the website's functionality, accessibility, and compatibility across various platforms and environments.
 
 
-### Deployment
-The website has been successfully deployed to GitHub Pages. To replicate this process, follow these steps:
+# 9. Deployment
 
-1. Go to the Settings tab in the GitHub repository.
-2. In the source section drop-down menu, choose the Master Branch.
-3. After selecting the master branch, a link to the completed website will be provided.
+## 9.1 Deployment via Gitpod
 
-You can access the live link to the deployed website here: [K-Drama React Fandom]. - https://github.com/arcadejk/kdrama-fandom/blob/main/index.html
+To deploy our website using Gitpod, we follow these steps:
 
-# Credits
+ **9.1.1 Development:** We develop and test our website locally in Gitpod's online integrated development environment (IDE), ensuring that it functions correctly and meets our design and functionality requirements.
 
-The content for this repository, including the README.md, Privacy Policy, Terms and Conditions, About Us, and FAQ sections, was written by me and Chat GPT, based on the requirements and specifications provided.
+ **9.1.2 Commit Changes:** Once we are satisfied with the changes, we commit them to our Git repository using Gitpod's version control system. We include descriptive commit messages to track the changes and updates made to the codebase.
 
-## Content
-The texts for all the pages and the instructions on how to implement form validation on the Sign Up page was writen using Chat GPT. 
-The icons in the footer were taken from Font Awesome
+ **9.1.3 Push to GitHub:** After committing the changes, we push the code to our GitHub repository, making it accessible to other team members and ensuring that all changes are synchronized across the development environment.
 
-## Media
-The presentation images used in the Landing Page section were sourced from [Image Source].
-Any other media assets used in this repository were either created by me or obtained from royalty-free image repositories such as Pitnterest, Google images, or Pexels.
-The video in the welcome article section was taken from  Criterion Channel Teaser on the YouTube.
-The photos used on the home and sign up page are from This Open Source site like Google free pictures and Pinterest.
-The images used for the gallery page were taken from Peexels.
+ **9.1.4 Continuous Integration:** We utilize continuous integration tools and services integrated with Gitpod, such as GitHub Actions or Gitpod's native CI/CD capabilities, to automatically build and deploy our website whenever changes are pushed to the GitHub repository.
+
+ **9.1.5 Review and Testing:** Before deploying the changes to production, we review and test the website to ensure that it functions correctly and meets our quality standards. We perform thorough testing on different devices and browsers to identify and address any compatibility issues.
+
+ **9.1.6 Deployment:** Once the changes have been reviewed and tested successfully, we deploy the website using Gitpod's deployment capabilities or other deployment tools integrated with our development environment. This process ensures that the latest version of the website is deployed to our hosting environment for public access.
+
+## 9.2 Deployment via GitHub Pages
+
+To deploy our website using GitHub Pages, we follow these steps:
+
+ **9.1 Configuration:** We configure our GitHub repository to enable GitHub Pages hosting for our project. This involves specifying the source branch and the directory containing the website files to be published.
+
+ **9.2 Build Process:** We ensure that our website files are structured and organized according to the requirements of GitHub Pages. This may involve setting up a separate directory for the website files and including necessary configuration files such as a `index.html` file.
+
+ **9.3 Commit and Push:** We commit and push the website files to our GitHub repository, ensuring that all changes are synchronized with the remote repository on GitHub.
+
+ **9.4 GitHub Pages Settings:** We navigate to the settings of our GitHub repository and access the GitHub Pages section. Here, we specify the source branch and directory containing the website files to be published.
+
+ **9.5 Deployment:** Once the settings are configured, GitHub Pages automatically deploys the website using the specified source branch and directory. The website is hosted on a GitHub Pages subdomain https://github.com/arcadejk/kdrama-fandom/blob/main/index.html and is accessible to the public.
+
+By following these deployment processes via Gitpod and GitHub Pages, we ensure that our website is consistently updated, accessible, and reliable for our users.
+
+
