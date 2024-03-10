@@ -9,7 +9,7 @@ The primary goal of "K-Drama React Fandom" is to foster a supportive and lively 
 
 # 2. User Stories
 
-## As a fan of Korean cinema:
+## 2.1.As a fan of Korean cinema:
 - I want to read the news related to each actors or movies and I want click on the images to get to the corresponded page.
 - I want to explore a variety of Korean movies across different genres and eras to broaden my cinematic horizons.
 - I want to engage in discussions with other fans to share recommendations, insights, and interpretations of Korean films.
@@ -17,14 +17,14 @@ The primary goal of "K-Drama React Fandom" is to foster a supportive and lively 
 - I want to connect with a diverse community of fellow enthusiasts who share my passion for Korean movies.
 - I want to discover hidden gems, underrated classics, and emerging talents in the Korean film industry.
 
-## As a newcomer to Korean cinema:
+## 2.2.As a newcomer to Korean cinema:
 - I want to learn more about the history, culture, and significance of Korean cinema as an art form.
 - I want to find accessible entry points and recommendations for starting my journey into Korean movies.
 - I want to receive guidance and support from experienced fans to navigate the vast landscape of Korean cinema.
 - I want to feel welcomed and encouraged to explore Korean films and discover new favorites at my own pace.
 - I want to immerse myself in the rich storytelling, unique aesthetics, and diverse perspectives offered by Korean cinema.
 
-## As a content creator:
+## 2.3.As a content creator:
 - I want to find inspiration for creating content, such as reviews, analyses, and fan art, inspired by Korean movies.
 - I want to collaborate with other creators to produce engaging and informative content about Korean cinema.
 - I want to share my creations with a passionate audience of Korean film enthusiasts who appreciate and support my work.
@@ -36,7 +36,7 @@ In this section, you should go over the different parts of your project, and des
 
 ## Existing Features
   
-- **Navigation Bar**
+- **3.1.Navigation Bar**
 
 ![image](https://github.com/arcadejk/kdrama-fandom/assets/157130011/87dd53b7-2a2b-4565-bc9a-71cfc3534135)
 
@@ -44,29 +44,25 @@ Featured on all three pages, the full responsive navigation bar includes links t
 This section will allow the user to easily navigate from page to page across all devices without having to revert back to the previous page via the ‘back’ button.
 Nav Bar
 
-- **The landing page presentation images**
+- **3.2.The landing page presentation images**
 
 The landing includes a photograph with text overlay to allow the user to see exactly which location this site would be applicable to.
 This section introduces the user to Love Running with an eye catching animation to grab their attention.
 
-- **Welcome Article: "Exploring the Dynamic World of Korean Cinema"**
+- **3.3.Welcome Article: "Exploring the Dynamic World of Korean Cinema"**
 
   ![image](https://github.com/arcadejk/kdrama-fandom/assets/157130011/79c4224d-ee9f-473f-a50e-1520a55b8112)
 
 The welcome article provides an introduction to the vibrant landscape of Korean cinema, highlighting its unique storytelling, compelling characters, and visually stunning cinematography. This article serves as a gateway for users to delve deeper into the world of Korean movies, setting the stage for an immersive and enriching experience on the website.
 
-- **The Actors and Movies Forums**
+- **3.3.The Actors and Movies Forums**
 
 ![image](https://github.com/arcadejk/kdrama-fandom/assets/157130011/888675fa-b9bb-49e5-819f-fb6fd66f4563)
 
 
 The website includes a section displaying upcoming events and screenings related to Korean cinema, keeping users informed about relevant activities and gatherings.
 
-- **Some events Times section**
-  
-The website includes a section displaying upcoming events and screenings related to Korean cinema, keeping users informed about relevant activities and gatherings.
-
-- **The last section with additional links**
+- **3.4.The last section with additional links**
 
   ![image](https://github.com/arcadejk/kdrama-fandom/assets/157130011/5c856cb6-f3dc-4497-981c-bc63c9096e66)
 
