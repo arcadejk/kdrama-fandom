@@ -245,15 +245,19 @@ To guarantee the website's functionality and usability, I devised test cases bas
     1. Use the developer tools device toolbar to emulate different screen sizes.
     2. Confirm that the website remains visually appealing and functional across standard screen sizes.
   - **Galaxy Fold (280px screen)**
+    
     ![image](https://github.com/arcadejk/kdrama-fandom/assets/157130011/6d749c18-cdf8-4c21-88c5-ba4c7a207fd9)
 
    - **iPad Mini (768px screen)**
+     
     ![image](https://github.com/arcadejk/kdrama-fandom/assets/157130011/c422ac36-0b3d-4ef9-a36a-0b3598a1dc1f)
 
   - **iPad Pro (1024px screen)**
+    
     ![image](https://github.com/arcadejk/kdrama-fandom/assets/157130011/ee25fc8f-fe96-446b-977c-86be4a1d1053)
 
   - **Laptop (1440px screen)**
+    
     ![image](https://github.com/arcadejk/kdrama-fandom/assets/157130011/3e45128d-4ede-4111-a2fb-42647ef144f6)
 
   - **Laptop (1440px screen)**
@@ -263,16 +267,20 @@ To guarantee the website's functionality and usability, I devised test cases bas
   - **Description:** As a user, I want the website to give access to the main pages or sections from the navbar.
   - **Test Steps:** 
 -The user may notice that the navbar is composed of 4 elements : the logo, and links to access the Home, the actors, the movie pages and the Sign-up page. On the right corner there is the logo. It is represented by the name of the fandom [K-Drama React Fandom].
+
 ![image](https://github.com/arcadejk/kdrama-fandom/assets/157130011/15506952-6320-4843-9015-61d1e4526ec3)
 
 - The navbar is fixed so that the ser could access the informed element at any moment.
 - By clicking on the **Home** icon, the user is redirected to the trends published on the website ever week.
+  
   ![image](https://github.com/arcadejk/kdrama-fandom/assets/157130011/3022af0c-21c2-4e7c-bd62-5213fa5b12bc)
 
 - By clicking on the right or the left of the home presentation slides, the user can visualize the 14 slides.
+  
   ![image](https://github.com/arcadejk/kdrama-fandom/assets/157130011/9adc102b-98c0-45fd-85f2-7506d7c73871)
 
 - On the homepage, the user can scroll down to read "The Fandom's Guide" presented as an article about the "Global Phenomenon of Korean Cinema".
+  
   ![image](https://github.com/arcadejk/kdrama-fandom/assets/157130011/69a41349-486c-4796-a571-0407b82fd0fb)
 
 - By clicking on the **Actors** icon, the user is redirected to the section of the forum related to the actors personnal and professional life. 
