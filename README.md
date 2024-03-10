@@ -303,9 +303,14 @@ To guarantee the website's functionality and usability, I devised test cases bas
   ![image](https://github.com/arcadejk/kdrama-fandom/assets/157130011/5fde9edf-0521-4080-9aa3-26a4ab0a8a55)
   
 
-- In the Footer, when click on the icon of the Social Networks, they redirect him to the homepage oh those specific pages.
+- In the Footer, when the user click on the icon of the Social Networks, they redirect him to the homepage oh those specific pages.
 
   ![image](https://github.com/arcadejk/kdrama-fandom/assets/157130011/3b757c3a-df42-4989-9c59-52739d4d405e)
+
+  - In the Footer, when the user click on **Terms of use** or **Privacy Policy** he/she will be redirected to the resective pages.
+ 
+    ![image](https://github.com/arcadejk/kdrama-fandom/assets/157130011/282cb751-bb1b-41b5-a81d-b0d75e7ad893)
+
 
 - **User Story 4: Signup**
   - **Description:** As a user, I want the website to give access to the registration page to have access to forums and interact.
@@ -382,4 +387,19 @@ To deploy our website using GitHub Pages, we follow these steps:
 
 By following these deployment processes via Gitpod and GitHub Pages, we ensure that our website is consistently updated, accessible, and reliable for our users.
 
+# 10. Credits
 
+The content for this repository, including the README.md, Privacy Policy, Terms and Conditions, About Us, and FAQ sections, was collaboratively written by myself and ChatGPT, based on the requirements and specifications provided.
+
+## 10.1 Content
+- The text content for all pages and instructions on implementing form validation on the Sign Up page were generated using ChatGPT.
+- The icons used in the footer were sourced from Font Awesome.
+
+## 10.2 Media
+- The presentation images used in the Landing Page section were sourced from Canva.com.
+- Any other media assets used in this repository were either created by myself or obtained from royalty-free image repositories such as Pinterest, Google Images, or Pexels.
+- The video in the welcome article section was sourced from the Criterion Channel Teaser on YouTube.
+- The photos used on the home and sign up pages are from open-source sites like Google Free Pictures and Pinterest.
+- The images used for the gallery page were obtained from Pexels.
+
+We would like to express our gratitude to all sources, platforms, and contributors for their valuable contributions to this project.
