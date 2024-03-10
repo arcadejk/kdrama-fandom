@@ -9,7 +9,7 @@ The primary goal of "K-Drama React Fandom" is to foster a supportive and lively 
 
 # 2. User Stories
 
-## 2.1.As a fan of Korean cinema:
+## 2.1. As a fan of Korean cinema:
 - I want to read the news related to each actors or movies and I want click on the images to get to the corresponded page.
 - I want to explore a variety of Korean movies across different genres and eras to broaden my cinematic horizons.
 - I want to engage in discussions with other fans to share recommendations, insights, and interpretations of Korean films.
@@ -17,14 +17,14 @@ The primary goal of "K-Drama React Fandom" is to foster a supportive and lively 
 - I want to connect with a diverse community of fellow enthusiasts who share my passion for Korean movies.
 - I want to discover hidden gems, underrated classics, and emerging talents in the Korean film industry.
 
-## 2.2.As a newcomer to Korean cinema:
+## 2.2. As a newcomer to Korean cinema:
 - I want to learn more about the history, culture, and significance of Korean cinema as an art form.
 - I want to find accessible entry points and recommendations for starting my journey into Korean movies.
 - I want to receive guidance and support from experienced fans to navigate the vast landscape of Korean cinema.
 - I want to feel welcomed and encouraged to explore Korean films and discover new favorites at my own pace.
 - I want to immerse myself in the rich storytelling, unique aesthetics, and diverse perspectives offered by Korean cinema.
 
-## 2.3.As a content creator:
+## 2.3. As a content creator:
 - I want to find inspiration for creating content, such as reviews, analyses, and fan art, inspired by Korean movies.
 - I want to collaborate with other creators to produce engaging and informative content about Korean cinema.
 - I want to share my creations with a passionate audience of Korean film enthusiasts who appreciate and support my work.
@@ -36,7 +36,7 @@ In this section, you should go over the different parts of your project, and des
 
 ## Existing Features
   
-- **3.1.Navigation Bar**
+- **3.1. Navigation Bar**
 
 ![image](https://github.com/arcadejk/kdrama-fandom/assets/157130011/87dd53b7-2a2b-4565-bc9a-71cfc3534135)
 
@@ -44,7 +44,7 @@ Featured on all three pages, the full responsive navigation bar includes links t
 This section will allow the user to easily navigate from page to page across all devices without having to revert back to the previous page via the ‘back’ button.
 Nav Bar
 
-- **3.2.The landing page presentation images**
+- **3.2. The landing page presentation images**
 
 The landing includes a photograph with text overlay to allow the user to see exactly which location this site would be applicable to.
 This section introduces the user to Love Running with an eye catching animation to grab their attention.
@@ -70,16 +70,16 @@ The website includes a section displaying upcoming events and screenings related
 This section will allow the user to see exactly when the meetups will happen, where they will be located and how long the run will be in kilometers.
 This section will be updated as these times change to keep the user up to date.
 
-- **The Footer**
+- **3.5. The Footer**
 ![image](https://github.com/arcadejk/kdrama-fandom/assets/157130011/4924e59b-be27-4f2a-8efb-2bf3203bf858)
 
 The footer contains essential information such as contact details, social media links, and copyright information, providing users with additional resources and ensuring transparency.
 
-- **The actors pages**
+- **3.6. The actors pages**
 
 Dedicated pages for Korean actors provide detailed information about their biographies, filmography, and achievements, allowing users to learn more about their favorite stars.
 
-- **The Sign-Up Page**
+- **3.7. The Sign-Up Page**
 
   ![image](https://github.com/arcadejk/kdrama-fandom/assets/157130011/5d24a656-72d4-4df9-b56d-001aaeca0069)
 
@@ -89,48 +89,48 @@ These existing features contribute to creating a comprehensive and user-friendly
 
 # 4. Future Features
 
-1. **Interactive Events:** We aim to organize interactive events such as live Q&A sessions with actors, directors, and industry experts, virtual film screenings followed by discussions, and exclusive meet-and-greets with special guests.
+ **4.1. Interactive Events:** We aim to organize interactive events such as live Q&A sessions with actors, directors, and industry experts, virtual film screenings followed by discussions, and exclusive meet-and-greets with special guests.
 
-2. **User Recommendations:** We plan to implement a feature that allows users to submit their own recommendations for Korean movies, dramas, and actors, creating a collaborative platform where fans can discover new favorites and share their personal recommendations with the community.
+ **4.2. User Recommendations:** We plan to implement a feature that allows users to submit their own recommendations for Korean movies, dramas, and actors, creating a collaborative platform where fans can discover new favorites and share their personal recommendations with the community.
 
-3. **Enhanced Community Engagement:** We will introduce features to facilitate deeper engagement within the community, such as user polls, contests, and challenges related to Korean cinema, as well as discussion threads dedicated to specific themes, genres, or topics of interest.
+ **4.3. Enhanced Community Engagement:** We will introduce features to facilitate deeper engagement within the community, such as user polls, contests, and challenges related to Korean cinema, as well as discussion threads dedicated to specific themes, genres, or topics of interest.
 
-4. **Advanced Search and Filtering:** To make it easier for users to find content tailored to their preferences, we will enhance our search and filtering capabilities, allowing users to search for movies, actors, and discussions based on criteria such as genre, release year, and popularity.
+ **4.4. Advanced Search and Filtering:** To make it easier for users to find content tailored to their preferences, we will enhance our search and filtering capabilities, allowing users to search for movies, actors, and discussions based on criteria such as genre, release year, and popularity.
 
-5. **Mobile App Development:** We are exploring the development of a dedicated mobile app for our fandom website, providing users with a seamless and optimized experience across various devices and platforms, as well as additional features tailored for mobile users.
+ **4.5. Mobile App Development:** We are exploring the development of a dedicated mobile app for our fandom website, providing users with a seamless and optimized experience across various devices and platforms, as well as additional features tailored for mobile users.
 
-6. **Localized Content and Community:** We plan to expand our website to support multiple languages and create localized communities for fans from different regions, allowing users to access content in their preferred language and engage with fellow fans in their local community.
+ **4.6. Localized Content and Community:** We plan to expand our website to support multiple languages and create localized communities for fans from different regions, allowing users to access content in their preferred language and engage with fellow fans in their local community.
 
-7. **Integration with Social Media Platforms:** We will explore opportunities to integrate our website with popular social media platforms, allowing users to easily share content, discussions, and events with their social networks and attract new members to our community.
+ **4.7. Integration with Social Media Platforms:** We will explore opportunities to integrate our website with popular social media platforms, allowing users to easily share content, discussions, and events with their social networks and attract new members to our community.
 
-8. **Accessibility Improvements:** We are committed to ensuring that our website is accessible to all users, including those with disabilities. We will work to improve accessibility features such as screen reader compatibility, keyboard navigation, and alternative text for media content.
+ **4.8. Accessibility Improvements:** We are committed to ensuring that our website is accessible to all users, including those with disabilities. We will work to improve accessibility features such as screen reader compatibility, keyboard navigation, and alternative text for media content.
 
 
 # 5. Typography and Color Scheme
 
-## Typography
+## 5.1. Typography
 
 For the typography of our fandom website, we have chosen a clean and modern font to ensure readability and visual appeal. We use the following font styles throughout the website:
 
-- **Heading Font:** We use the "Baskervville" font family for headings and titles, with a bold and vibrant color of #FF4500 to make them stand out and grab the attention of the users.
+- **5.1.1. Heading Font:** We use the "Baskervville" font family for headings and titles, with a bold and vibrant color of #FF4500 to make them stand out and grab the attention of the users.
 
-- **Body Font:** For the body text and paragraphs, we use the "Baskervville" font family in a standard weight, ensuring legibility and clarity for easy reading.
+- **5.1.2. Body Font:** For the body text and paragraphs, we use the "Baskervville" font family in a standard weight, ensuring legibility and clarity for easy reading.
 
-## Color Scheme
+## 5.2.3. Color Scheme
 
 Our color scheme is carefully chosen to create a visually pleasing and harmonious experience for our users. We use the following colors consistently throughout the website:
 
-- **Header Background Color:** #be3144: This deep red color creates a bold and striking header background, providing a visually appealing contrast to the content and navigation elements.
+- **5.2.1. Header Background Color:** #be3144: This deep red color creates a bold and striking header background, providing a visually appealing contrast to the content and navigation elements.
 
-- **Header Text Color:** #ffffff: We use white text on the header background to ensure high contrast and readability.
+- **5.2.2. Header Text Color:** #ffffff: We use white text on the header background to ensure high contrast and readability.
 
-- **Hover Background Color:** #EB91A0: When users hover over interactive elements such as nav links or buttons, we use a soft pink color to provide visual feedback and enhance user engagement.
+- **5.2.3. Hover Background Color:** #EB91A0: When users hover over interactive elements such as nav links or buttons, we use a soft pink color to provide visual feedback and enhance user engagement.
 
-- **Article Background Color:** #333333: The dark gray background color of #333333 is used for article sections, providing a neutral backdrop that highlights the content and images.
+- **5.2.4. Article Background Color:** #333333: The dark gray background color of #333333 is used for article sections, providing a neutral backdrop that highlights the content and images.
 
-- **Titles Color:** #FF4500: We use a vibrant orange color for titles and headings to create visual hierarchy and draw attention to important information.
+- **5.2.5. Titles Color:** #FF4500: We use a vibrant orange color for titles and headings to create visual hierarchy and draw attention to important information.
 
-- **Footer Background Color:** #DFA1DF: The light purple background color of #DFA1DF is used for the footer section, creating a cohesive and harmonious color palette that complements the overall design of the website.
+- **5.2.6. Footer Background Color:** #DFA1DF: The light purple background color of #DFA1DF is used for the footer section, creating a cohesive and harmonious color palette that complements the overall design of the website.
 
 By combining these typography styles and colors, we aim to create a visually appealing and user-friendly experience for our audience, ensuring readability, accessibility, and aesthetic appeal across all aspects of our fandom website.
 
@@ -183,15 +183,15 @@ Wireframes are an essential part of the design process for our fandom website. T
 Overall, wireframes play a crucial role in the design and development process of our fandom website, helping us visualize and refine the layout, functionality, and user experience to create a polished and user-friendly final product.
 
 
-# 7.Technologies Used
+# 7. Technologies Used
 
 Our fandom website leverages a variety of technologies to create a seamless and engaging user experience. Here are the key technologies we used and the reasons for their selection:
 
-## 7.1.HTML (HyperText Markup Language)
+## 7.1. HTML (HyperText Markup Language)
 
 - **Reason for Use:** HTML is the standard markup language for creating web pages and is essential for structuring the content of our website. We use HTML to define the layout, headings, paragraphs, images, and other elements of each webpage, ensuring a clear and organized presentation of information for our users.
 
-## 7.2.CSS (Cascading Style Sheets)
+## 7.2. CSS (Cascading Style Sheets)
 
 - **Reason for Use:** CSS is used to style the visual presentation of our website, including layout, colors, fonts, and spacing. We use CSS to customize the appearance of HTML elements and create a visually appealing and cohesive design that aligns with our branding and enhances the user experience.
 
@@ -203,7 +203,7 @@ Our fandom website leverages a variety of technologies to create a seamless and 
 
 - **Reason for Use:** Balsamiq is a lightweight and modular CSS framework based on Balsamiq Design System that provides pre-designed components and styles for building responsive and accessible user interfaces. We use BalmUI to speed up the development process, ensure consistency in design across different components and pages, and optimize our website for various screen sizes and devices.
 
-## 7.5.GitHub
+## 7.5. GitHub
 
 - **Reason for Use:** GitHub is a popular platform for hosting and managing software development projects using the Git version control system. We use GitHub to store our codebase, track changes, collaborate with team members, and deploy our website. GitHub provides features such as pull requests, issues tracking, and project management tools that help streamline our development workflow and ensure transparency and accountability in our project management process.
 
