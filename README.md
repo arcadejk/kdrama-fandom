@@ -315,13 +315,27 @@ To guarantee the website's functionality and usability, I devised test cases bas
   
   ![image](https://github.com/arcadejk/kdrama-fandom/assets/157130011/c703912b-60de-4b9f-896c-b6949f99e301)
 
+  -When you just enter your name and your surname first without entering the other elements, and click on Submit, it asks you to enter the email.
   
+  ![image](https://github.com/arcadejk/kdrama-fandom/assets/157130011/dbafc5a2-2a35-48aa-aa2f-7dc7439afdd2)
+
+  -When you just enter your name and your surname first and the email without entering the password, and click on Submit, it asks you to enter a password.
+
+  ![image](https://github.com/arcadejk/kdrama-fandom/assets/157130011/cf7bc5ad-2a3d-4e72-be7f-bc0e1074e588)
+
+  - After entering the password, and clicking on submit, the page of succesfull registration appears.
+    
+  ![image](https://github.com/arcadejk/kdrama-fandom/assets/157130011/9c8c31a9-6c5b-4354-94ff-2720bf6454bd)
+
 
 #### 8.3 Fixed Bugs
 
 During testing, I encountered and addressed a bug on the Signup page. 
 
 - **Bug Description:** A vertical white line appeared on the right side of the page within the overflow margin.
+
+  ![image](https://github.com/arcadejk/kdrama-fandom/assets/157130011/b05372a3-bdbc-4e77-93d5-1fec8ef1b1dc)
+
 - **Resolution:** Applying an `overflow: auto` to the entire code resolved the issue, eliminating the white line. However, this action inadvertently caused the menu to malfunction upon clicking.
 
 #### 8.4 Supported Screens and Browsers
