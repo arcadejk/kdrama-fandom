@@ -308,10 +308,14 @@ To guarantee the website's functionality and usability, I devised test cases bas
   ![image](https://github.com/arcadejk/kdrama-fandom/assets/157130011/3b757c3a-df42-4989-9c59-52739d4d405e)
 
 - **User Story 4: Signup**
-  - **Description:** As a user, I want the website to give access to the registration page to have access to .
-  - **Test Steps:**
-    
+  - **Description:** As a user, I want the website to give access to the registration page to have access to forums and interact.
+  - **Test Steps:** 
+
+  -When you click and just enter your name without entering the other elements, and click on Submit, it asks you to enter the surname first.
+  
   ![image](https://github.com/arcadejk/kdrama-fandom/assets/157130011/c703912b-60de-4b9f-896c-b6949f99e301)
+
+  
 
 #### 8.3 Fixed Bugs
 
