@@ -285,6 +285,32 @@ To guarantee the website's functionality and usability, I devised test cases bas
 
 - By clicking on the **Actors** icon, the user is redirected to the section of the forum related to the actors personnal and professional life. 
 
+![image](https://github.com/arcadejk/kdrama-fandom/assets/157130011/f7ea7222-bb32-4fc3-999e-322383f8f479)
+
+-The user can access the actors by clicking on the image of the actor.
+
+![image](https://github.com/arcadejk/kdrama-fandom/assets/157130011/59a471c6-3569-4f33-ab7e-c3af75281fac)
+
+- By clicking on the **Movies** icon, the user is redirected to the section of the forum related to the movie's.
+
+![image](https://github.com/arcadejk/kdrama-fandom/assets/157130011/0f8b2ff7-1907-47b2-a74c-6baae49eeb99)
+
+- The user can thoen click on the specific movie he/she is interested in.
+
+  ![image](https://github.com/arcadejk/kdrama-fandom/assets/157130011/92bfe9d9-c04e-4c7c-8140-e2334ab39f8a)
+
+- The images of both sections: Actors and Movies are built to show a little animation when the pointer of the mouse is passed on it.
+- By clicking on the links of the **Last Section**, the user may visit pages like the **About us, Actors, FAQ, Contact us, Events, Categories, Donation** and the **Store** pages.
+
+  ![image](https://github.com/arcadejk/kdrama-fandom/assets/157130011/5fde9edf-0521-4080-9aa3-26a4ab0a8a55)
+  
+
+- In the Footer, when click on the icon of the Social Networks, they redirect him to the homepage oh those specific pages.
+
+  ![image](https://github.com/arcadejk/kdrama-fandom/assets/157130011/3b757c3a-df42-4989-9c59-52739d4d405e)
+
+
+
 #### 8.3 Fixed Bugs
 
 During testing, I encountered and addressed a bug on the Signup page. 
