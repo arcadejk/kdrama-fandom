@@ -201,7 +201,7 @@ Our fandom website leverages a variety of technologies to create a seamless and 
 
 ## 7.4 Balsamiq
 
-- **Reason for Use:** Balsamiq is a lightweight and modular CSS framework based on Balsamiq Design System that provides pre-designed components and styles for building responsive and accessible user interfaces. We use BalmUI to speed up the development process, ensure consistency in design across different components and pages, and optimize our website for various screen sizes and devices.
+- **Reason for Use:** Balsamiq is a lightweight and modular CSS framework based on Balsamiq Design System that provides pre-designed components and styles for building responsive and accessible user interfaces. We use Balsamiq to speed up the development process, ensure consistency in design across different components and pages, and optimize our website for various screen sizes and devices.
 
 ## 7.5 GitHub
 
@@ -260,8 +260,6 @@ To guarantee the website's functionality and usability, I devised test cases bas
     
     ![image](https://github.com/arcadejk/kdrama-fandom/assets/157130011/3e45128d-4ede-4111-a2fb-42647ef144f6)
 
-  - **Laptop (1440px screen)**
-
   
 - **User Story 3: Homepage**
   - **Description:** As a user, I want the website to give access to the main pages or sections from the navbar.
@@ -309,7 +307,11 @@ To guarantee the website's functionality and usability, I devised test cases bas
 
   ![image](https://github.com/arcadejk/kdrama-fandom/assets/157130011/3b757c3a-df42-4989-9c59-52739d4d405e)
 
-
+- **User Story 4: Signup**
+  - **Description:** As a user, I want the website to give access to the registration page to have access to .
+  - **Test Steps:**
+    
+  ![image](https://github.com/arcadejk/kdrama-fandom/assets/157130011/c703912b-60de-4b9f-896c-b6949f99e301)
 
 #### 8.3 Fixed Bugs
 
