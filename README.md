@@ -269,6 +269,12 @@ To guarantee the website's functionality and usability, I devised test cases bas
 - By clicking on the **Home** icon, the user is redirected to the trends published on the website ever week.
   ![image](https://github.com/arcadejk/kdrama-fandom/assets/157130011/3022af0c-21c2-4e7c-bd62-5213fa5b12bc)
 
+- By clicking on the right or the left of the home presentation slides, the user can visualize the 14 slides.
+  ![image](https://github.com/arcadejk/kdrama-fandom/assets/157130011/9adc102b-98c0-45fd-85f2-7506d7c73871)
+
+- On the homepage, the user can scroll down to read "The Fandom's Guide" presented as an article about the "Global Phenomenon of Korean Cinema".
+  ![image](https://github.com/arcadejk/kdrama-fandom/assets/157130011/69a41349-486c-4796-a571-0407b82fd0fb)
+
 - By clicking on the **Actors** icon, the user is redirected to the section of the forum related to the actors personnal and professional life. 
 
 #### 8.3 Fixed Bugs
