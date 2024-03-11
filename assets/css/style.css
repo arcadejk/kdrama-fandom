@@ -296,8 +296,7 @@
      padding-top: 20px;
 }
  form {
-     max-width: 500px;
-     min-width: 300px;
+     width: 100%;
      margin: 150px;
      align-items: center;
 }
@@ -599,9 +598,6 @@
 
 /*Media Querie for small screens with 280px */
  @media only screen and (max-width: 280px) {
-    header {
-        width: 280px;
-    }
 
     #logo {
          padding-left: .5rem;
