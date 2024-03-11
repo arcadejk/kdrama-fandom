@@ -237,7 +237,6 @@ To guarantee the website's functionality and usability, I devised test cases bas
   - **Test Steps:** 
     1. Access the website using Chrome, Firefox, and Safari browsers.
     2. Verify consistency in layout and functionality.
-  - **Screenshots:** [Insert screenshots here]
 
 - **User Story 2:**
   - **Description:** As a user, I want the website to be responsive and adapt to various screen sizes.
@@ -330,7 +329,7 @@ To guarantee the website's functionality and usability, I devised test cases bas
 
   - After entering the password, and clicking on submit, the page of succesfull registration appears.
     
-  ![image](https://github.com/arcadejk/kdrama-fandom/assets/157130011/9c8c31a9-6c5b-4354-94ff-2720bf6454bd)
+  ![image](https://github.com/arcadejk/kdrama-fandom/assets/157130011/6ffbe749-54bb-4d3b-97f5-2782c8e3122d)
 
 
 #### 8.3 Fixed Bugs
@@ -341,7 +340,9 @@ During testing, I encountered and addressed a bug on the Signup page.
 
   ![image](https://github.com/arcadejk/kdrama-fandom/assets/157130011/b05372a3-bdbc-4e77-93d5-1fec8ef1b1dc)
 
-- **Resolution:** Applying an `overflow: auto` to the entire code resolved the issue, eliminating the white line. However, this action inadvertently caused the menu to malfunction upon clicking.
+- **Resolution:**
+  Applying an `overflow: auto` to the entire code resolved the issue, eliminating the white line. However, this action inadvertently caused the menu to malfunction upon clicking.
+  The right way of solving the bug was using the DevTools and identify that the line is de to "max-width" and "min-width" added as propreties in the form styling elements.
 
 #### 8.4 Supported Screens and Browsers
 
