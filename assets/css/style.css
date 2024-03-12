@@ -298,7 +298,7 @@
 }
  form {
      width: 100%;
-     margin-top: 150px;
+     margin: 150px;
 }
  .signup img {
      width: 800px;
@@ -419,7 +419,7 @@
     background-color: #fff;
     padding: 30px;
     border-radius: 10px;
-    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 2px 5px #0000001a;
     text-align: center;
 }
 
