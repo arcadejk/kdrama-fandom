@@ -462,7 +462,7 @@
     }
 }
 
-/*Media Querie for larger screens and max-width: 1024px */
+/*Media Querie for larger screens, 1024px and higher */
  @media only screen and (max-width: 1024px), (max-width: 1047px), (max-width: 1440px) {
      
     #logo {
@@ -521,7 +521,7 @@
     }
 }
 
-/*Media Querie for medium screens and max-width: 768px */
+/*Media Querie for medium screens, 768px and higher */
  @media only screen and (max-width: 768px), (max-width: 780px), (max-width: 820px), (max-width: 912px)  {
 
      #logo {
@@ -589,7 +589,7 @@
     }
 }
 
-/* Media Querie for small screens with 280px */
+/* Media Querie for small screens with 320px and higher */
 @media only screen and (max-width: 320px), (max-width: 375px), (max-width: 412px), (max-width: 430px), (max-width: 540px) {
 
     #logo {
