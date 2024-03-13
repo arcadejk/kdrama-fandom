@@ -298,7 +298,7 @@
 }
  form {
      width: 100%;
-     margin: 5vh;
+     margin: 15vh;
 }
  .signup img {
      width: 800px;
@@ -463,8 +463,9 @@
 }
 
 /*Media Querie for larger screens and max-width: 1024px */
- @media only screen and (max-width: 1024px) {
-     #logo {
+ @media only screen and (max-width: 1024px), (max-width: 1047px), (max-width: 1440px) {
+     
+    #logo {
          padding-left: 60px;
     }
      .nav {
@@ -515,28 +516,13 @@
      .actors img {
          padding-top: 40px;
     }
-}
 
-/*Media Querie for medium screens, tablets and max-width: 780px */
- @media only screen and (min-width: 780px) {
-     #logo {
-         padding: 1rem;
-         font-size: 25px;
-    }
-     .nav {
-         display: flex;
-         padding-right: .2rem;
-         font-size: 20px;
-         font-weight: bold;
-    }
-     .nav-list {
-         display: flex;
-         margin-right: 0;
-    }
+    
 }
 
 /*Media Querie for medium screens and max-width: 768px */
- @media only screen and (max-width: 768px) {
+ @media only screen and (max-width: 768px), (max-width: 780px) {
+
      #logo {
          padding: 1rem;
          font-size: 25px;
@@ -594,10 +580,14 @@
          width: 100%;
          display: block;
     }
+    form {
+        margin: 0;
+        padding: 15vh;
+    }
 }
 
-/*Media Querie for small screens with 280px */
- @media only screen and (max-width: 280px) {
+/* Media Querie for small screens with 280px */
+ @media only screen and (max-width: 280px), (max-width: 320px), (max-width: 375px), (max-width: 425px) {
 
     #logo {
          padding-left: .1rem;
@@ -725,8 +715,7 @@
     }
      footer, table {
          display: flex;
-         flex-direction: row;
-         flex-wrap: wrap;
+         flex-direction: column;
          padding: 5px;
     }
      #footer-elements i, footer p, #movies p {
@@ -749,7 +738,7 @@
          padding-top: 25px;
     }
      .signup img {
-         width: 280px;
+         width: 100%;
          display: block;
     }
      fieldset {
