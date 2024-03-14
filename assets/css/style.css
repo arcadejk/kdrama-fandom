@@ -24,8 +24,8 @@
      color: inherit;
 }
  #logo {
-     padding-left: 7rem;
-     margin-left: 2.9rem;
+     padding-left: 6rem;
+     margin-left: 1.8rem;
      font-size: 40px;
      flex-grow: 1;
 }
@@ -48,7 +48,8 @@
      justify-content: space-between;
 }
  .nav-list li {
-     margin-right: 50px;
+     margin-right: 60px;
+     padding-right: 10px;
 }
  .nav-list a:hover {
      background: #EB91A0;
@@ -466,7 +467,7 @@
  @media only screen and (max-width: 1024px), (max-width: 1047px), (max-width: 1440px) {
      
     #logo {
-         padding-left: 60px;
+         padding-left: 42px;
     }
      .nav {
          display: flex;
@@ -474,10 +475,27 @@
          font-size: 20px;
          font-weight: bold;
     }
-     .nav-list {
-         display: flex;
-         margin-right: 0;
-    }
+    .nav-list {
+        display: flex;
+        margin-right: 0;
+        padding-right: 45px;
+   }
+
+   .nav li {
+       display: block;
+       margin-right: 10px;
+       padding-left: 10px;
+  }
+
+   .nav li:last-child {
+       margin-right: 5px;
+  }
+
+  .nav li:first-child {
+      margin-right: 5px;
+ }
+
+ /*  Styling article */
      .welcome-text {
          padding-left: 55px;
          padding-right: 55px;
@@ -516,9 +534,16 @@
      .actors img {
          padding-top: 40px;
     }
+
+    form {
+        margin: 3vh;
+        padding: 20px;
+    }
+
     .signup img {
         width: 600px;
     }
+
 }
 
 /*Media Querie for medium screens, 768px and higher */
@@ -537,7 +562,24 @@
      .nav-list {
          display: flex;
          margin-right: 0;
+         padding-right: 25px;
     }
+
+    .nav li {
+        display: block;
+        margin-right: 10px;
+        padding-left: 10px;
+   }
+
+    .nav li:last-child {
+        margin-right: 5px;
+   }
+
+   .nav li:first-child {
+       margin-right: 5px;
+  }
+
+  /*  Styling article */
      .welcome-text {
          padding-left: 35px;
          padding-right: 35px;
@@ -618,11 +660,12 @@
      .nav-list {
          font-size: 13px;
          padding: 0;
+         padding-left: 5px;
     }
      .nav li {
          display: block;
          margin-right: 10px;
-         padding-left: 10px;
+         padding-left: 15px;
     }
      .nav li:last-child {
          margin-right: 5px;
@@ -782,8 +825,9 @@
          border: 1px solid #000000;
     }
      .nav-list {
-         font-size: 13px;
+         font-size: 11px;
          padding: 0;
+         padding-left: 10px;
     }
      .nav li {
          display: block;
