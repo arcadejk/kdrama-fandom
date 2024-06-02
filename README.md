@@ -263,11 +263,11 @@ To guarantee the website's functionality and usability, I devised test cases bas
 - **User Story 3: Homepage**
   - **Description:** As a user, I want the website to give access to the main pages or sections from the navbar.
   - **Test Steps:** 
--The user may notice that the navbar is composed of 4 elements : the logo, and links to access the Home, the actors, the movie pages and the Sign-up page. On the right corner there is the logo. It is represented by the name of the fandom [K-Drama React Fandom].
+-The user may notice that the navbar is composed of 4 elements: the logo, and links to access the Home, the actors, the movie pages and the Sign-up page. In the right corner, there is the logo. It is represented by the name of the fandom [K-Drama React Fandom].
 
 ![image](https://github.com/arcadejk/kdrama-fandom/assets/157130011/15506952-6320-4843-9015-61d1e4526ec3)
 
-- The navbar is fixed so that the ser could access the informed element at any moment.
+- The navbar is fixed so that the user can access the informed element at any moment.
 - By clicking on the **Home** icon, the user is redirected to the trends published on the website ever week.
   
   ![image](https://github.com/arcadejk/kdrama-fandom/assets/157130011/3022af0c-21c2-4e7c-bd62-5213fa5b12bc)
@@ -292,7 +292,7 @@ To guarantee the website's functionality and usability, I devised test cases bas
 
 ![image](https://github.com/arcadejk/kdrama-fandom/assets/157130011/0f8b2ff7-1907-47b2-a74c-6baae49eeb99)
 
-- The user can thoen click on the specific movie he/she is interested in.
+- The user can then click on the specific movie he/she is interested in. But for the development of this website he will be redirected to the kim-sang-beom.html page each time.
 
   ![image](https://github.com/arcadejk/kdrama-fandom/assets/157130011/92bfe9d9-c04e-4c7c-8140-e2334ab39f8a)
 
@@ -302,11 +302,11 @@ To guarantee the website's functionality and usability, I devised test cases bas
   ![image](https://github.com/arcadejk/kdrama-fandom/assets/157130011/5fde9edf-0521-4080-9aa3-26a4ab0a8a55)
   
 
-- In the Footer, when the user click on the icon of the Social Networks, they redirect him to the homepage oh those specific pages.
+- In the Footer, when the user clicks on the icon of the Social Networks, they redirect him to the homepage of those specific pages.
 
   ![image](https://github.com/arcadejk/kdrama-fandom/assets/157130011/3b757c3a-df42-4989-9c59-52739d4d405e)
 
-  - In the Footer, when the user click on **Terms of use** or **Privacy Policy** he/she will be redirected to the resective pages.
+  - In the Footer, when the user clicks on **Terms of Use** or **Privacy Policy** he/she will be redirected to the respective pages.
  
     ![image](https://github.com/arcadejk/kdrama-fandom/assets/157130011/282cb751-bb1b-41b5-a81d-b0d75e7ad893)
 
@@ -319,15 +319,15 @@ To guarantee the website's functionality and usability, I devised test cases bas
   
   ![image](https://github.com/arcadejk/kdrama-fandom/assets/157130011/c703912b-60de-4b9f-896c-b6949f99e301)
 
-  -When you just enter your name and your surname first without entering the other elements, and click on Submit, it asks you to enter the email.
+  -When the user enters his/her name and surname first without entering the other elements, and clicks on Submit, it asks him/her to enter the email.
   
   ![image](https://github.com/arcadejk/kdrama-fandom/assets/157130011/dbafc5a2-2a35-48aa-aa2f-7dc7439afdd2)
 
-  -When you just enter your name and your surname first and the email without entering the password, and click on Submit, it asks you to enter a password.
+  - When the user enters his/her name and surname first and the email without entering the password, and clicks on Submit, it asks him/her to enter a password.
 
   ![image](https://github.com/arcadejk/kdrama-fandom/assets/157130011/cf7bc5ad-2a3d-4e72-be7f-bc0e1074e588)
 
-  - After entering the password, and clicking on submit, the page of succesfull registration appears.
+  - After entering the password, and clicking on submit, the page of successful registration appears.
     
   ![image](https://github.com/arcadejk/kdrama-fandom/assets/157130011/6ffbe749-54bb-4d3b-97f5-2782c8e3122d)
 
@@ -342,7 +342,7 @@ During testing, I encountered and addressed a bug on the Signup page.
 
 - **Resolution:**
   Applying an `overflow: auto` to the entire code resolved the issue, eliminating the white line. However, this action inadvertently caused the menu to malfunction upon clicking.
-  The right way of solving the bug was using the DevTools and identify that the line is de to "max-width" and "min-width" added as propreties in the form styling elements.
+  The right way of solving the bug was using the DevTools and identifying that the line is de to "max-width" and "min-width" added as properties in the form styling elements.
 
 #### 8.4 Supported Screens and Browsers
 
