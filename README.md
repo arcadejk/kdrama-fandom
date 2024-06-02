@@ -10,7 +10,7 @@ The primary goal of "K-Drama React Fandom" is to foster a supportive and lively 
 # 2. User Stories
 
 ## 2.1 As a fan of Korean cinema:
-- I want to read the news related to each actors or movies and I want click on the images to get to the corresponded page.
+- I want to read the news related to each actors or movies and I want click on the images to get to the corresponding page.
 - I want to explore a variety of Korean movies across different genres and eras to broaden my cinematic horizons.
 - I want to engage in discussions with other fans to share recommendations, insights, and interpretations of Korean films.
 - I want to stay updated on the latest news, events, and releases in the world of Korean cinema.
@@ -40,14 +40,14 @@ In this section, you should go over the different parts of your project, and des
 
 ![image](https://github.com/arcadejk/kdrama-fandom/assets/157130011/87dd53b7-2a2b-4565-bc9a-71cfc3534135)
 
-Featured on all three pages, the full responsive navigation bar includes links to the Logo, Home page, Gallery and Sign Up page and is identical in each page to allow for easy navigation.
-This section will allow the user to easily navigate from page to page across all devices without having to revert back to the previous page via the ‘back’ button.
+Featured on all three pages, the full responsive navigation bar includes links to the Logo, Home page, Gallery, and Sign Up page and is identical on each page to allow for easy navigation.
+This section will allow the user to easily navigate from page to page across all devices without having to revert to the previous page via the ‘back’ button.
 Nav Bar
 
 - **3.2 The landing page presentation images**
 
-The landing includes a photograph with text overlay to allow the user to see exactly which location this site would be applicable to.
-This section introduces the user to Love Running with an eye catching animation to grab their attention.
+The landing includes a photograph with text overlay to allow the user to see exactly which location this site would apply to.
+This section introduces the user to Love Running with an eye-catching animation to grab their attention.
 
 - **3.3 Welcome Article: "Exploring the Dynamic World of Korean Cinema"**
 
@@ -67,15 +67,16 @@ The website includes a section displaying upcoming events and screenings related
   ![image](https://github.com/arcadejk/kdrama-fandom/assets/157130011/5c856cb6-f3dc-4497-981c-bc63c9096e66)
 
 
-This section will allow the user to see exactly when the meetups will happen, where they will be located and how long the run will be in kilometers.
-This section will be updated as these times change to keep the user up to date.
+This section will allow the user to access the other features of the fandom as The About us, the Actors blog, the FAQ, the Contact Us, the Events, the Categories of movies, the donation page, and the store.
+But all of these pages will redirected to the aboutus.html page, for test purposes.
+
 
 - **3.5 The Footer**
 ![image](https://github.com/arcadejk/kdrama-fandom/assets/157130011/4924e59b-be27-4f2a-8efb-2bf3203bf858)
 
 The footer contains essential information such as contact details, social media links, and copyright information, providing users with additional resources and ensuring transparency.
 
-- **3.6 The actors pages**
+- **3.6 The actors' pages**
 
 Dedicated pages for Korean actors provide detailed information about their biographies, filmography, and achievements, allowing users to learn more about their favorite stars.
 
@@ -112,9 +113,9 @@ These existing features contribute to creating a comprehensive and user-friendly
 
 For the typography of our fandom website, we have chosen a clean and modern font to ensure readability and visual appeal. We use the following font styles throughout the website:
 
-- **5.1.1 Heading Font:** We use the "Baskervville" font family for headings and titles, with a bold and vibrant color of #FF4500 to make them stand out and grab the attention of the users.
+- **5.1.1 Heading Font:** We use the "Baskerville" font family for headings and titles, with a bold and vibrant color of #FF4500 to make them stand out and grab the attention of the users.
 
-- **5.1.2 Body Font:** For the body text and paragraphs, we use the "Baskervville" font family in a standard weight, ensuring legibility and clarity for easy reading.
+- **5.1.2 Body Font:** For the body text and paragraphs, we use the "Baskerville" font family in standard weight, ensuring legibility and clarity for easy reading.
 
 ## 5.2.3 Color Scheme
 
@@ -197,17 +198,17 @@ Our fandom website leverages a variety of technologies to create a seamless and 
 
 ## 7.3 Gitpod
 
-- **Reason for Use:** Gitpod is an online integrated development environment (IDE) that allows us to code, collaborate, and deploy our website from any device with an internet connection. We use Gitpod to streamline our development workflow, collaborate with team members in real-time, and access our codebase securely from anywhere, ensuring flexibility and efficiency in our development process.
+- **Reason for Use:** Gitpod is an online integrated development environment (IDE) that allows us to code, collaborate, and deploy our website from any device with an internet connection. We use Gitpod to streamline our development workflow, collaborate with team members in real time, and access our codebase securely from anywhere, ensuring flexibility and efficiency in our development process.
 
 ## 7.4 Balsamiq
 
-- **Reason for Use:** Balsamiq is a lightweight and modular CSS framework based on Balsamiq Design System that provides pre-designed components and styles for building responsive and accessible user interfaces. We use Balsamiq to speed up the development process, ensure consistency in design across different components and pages, and optimize our website for various screen sizes and devices.
+- **Reason for Use:** Balsamiq is a lightweight and modular CSS framework based on the Balsamiq Design System that provides pre-designed components and styles for building responsive and accessible user interfaces. We use Balsamiq to speed up the development process, ensure consistency in design across different components and pages, and optimize our website for various screen sizes and devices.
 
 ## 7.5 GitHub
 
 - **Reason for Use:** GitHub is a popular platform for hosting and managing software development projects using the Git version control system. We use GitHub to store our codebase, track changes, collaborate with team members, and deploy our website. GitHub provides features such as pull requests, issues tracking, and project management tools that help streamline our development workflow and ensure transparency and accountability in our project management process.
 
-By leveraging these technologies, we are able to create a robust and user-friendly fandom website that delivers a seamless and engaging experience for our audience while maximizing efficiency and collaboration in our development process.
+By leveraging these technologies, we can create a robust and user-friendly fandom website that delivers a seamless and engaging experience for our audience while maximizing efficiency and collaboration in our development process.
 
 ### 8. Testing
 
@@ -280,7 +281,7 @@ To guarantee the website's functionality and usability, I devised test cases bas
   
   ![image](https://github.com/arcadejk/kdrama-fandom/assets/157130011/69a41349-486c-4796-a571-0407b82fd0fb)
 
-- By clicking on the **Actors** icon, the user is redirected to the section of the forum related to the actors personnal and professional life. 
+- By clicking on the **Actors** icon, the user is redirected to the section of the forum related to the actor's personal and professional life. 
 
 ![image](https://github.com/arcadejk/kdrama-fandom/assets/157130011/f7ea7222-bb32-4fc3-999e-322383f8f479)
 
@@ -288,11 +289,11 @@ To guarantee the website's functionality and usability, I devised test cases bas
 
 ![image](https://github.com/arcadejk/kdrama-fandom/assets/157130011/59a471c6-3569-4f33-ab7e-c3af75281fac)
 
-- By clicking on the **Movies** icon, the user is redirected to the section of the forum related to the movie's.
+- By clicking on the **Movies** icon, the user is redirected to the section of the forum related to the movies.
 
 ![image](https://github.com/arcadejk/kdrama-fandom/assets/157130011/0f8b2ff7-1907-47b2-a74c-6baae49eeb99)
 
-- The user can then click on the specific movie he/she is interested in. But for the development of this website he will be redirected to the kim-sang-beom.html page each time.
+- The user can then click on the specific movie he/she is interested in. But for the development of this website, he will be redirected to the kim-sang-beom.html page each time.
 
   ![image](https://github.com/arcadejk/kdrama-fandom/assets/157130011/92bfe9d9-c04e-4c7c-8140-e2334ab39f8a)
 
@@ -319,7 +320,7 @@ To guarantee the website's functionality and usability, I devised test cases bas
   
   ![image](https://github.com/arcadejk/kdrama-fandom/assets/157130011/c703912b-60de-4b9f-896c-b6949f99e301)
 
-  -When the user enters his/her name and surname first without entering the other elements, and clicks on Submit, it asks him/her to enter the email.
+  -When the user enters his/her name and surname first without entering the other elements and clicks on Submit, it asks him/her to enter the email.
   
   ![image](https://github.com/arcadejk/kdrama-fandom/assets/157130011/dbafc5a2-2a35-48aa-aa2f-7dc7439afdd2)
 
@@ -342,7 +343,7 @@ During testing, I encountered and addressed a bug on the Signup page.
 
 - **Resolution:**
   Applying an `overflow: auto` to the entire code resolved the issue, eliminating the white line. However, this action inadvertently caused the menu to malfunction upon clicking.
-  The right way of solving the bug was using the DevTools and identifying that the line is de to "max-width" and "min-width" added as properties in the form styling elements.
+  The right way of solving the bug was using the DevTools and identifying that the line is due to "max-width" and "min-width" added as properties in the form styling elements.
 
 #### 8.4 Supported Screens and Browsers
 
@@ -390,17 +391,17 @@ By following these deployment processes via Gitpod and GitHub Pages, we ensure t
 
 # 10. Credits
 
-The content for this repository, including the README.md, Privacy Policy, Terms and Conditions, About Us, and FAQ sections, was collaboratively written by myself and ChatGPT, based on the requirements and specifications provided.
+The content for this repository, including the README.md, Privacy Policy, Terms, and Conditions, About Us, and FAQ sections, was collaboratively written by myself and ChatGPT, based on the requirements and specifications provided.
 
 ## 10.1 Content
-- The text content for all pages and instructions on implementing form validation on the Sign Up page were generated using ChatGPT.
+- The text content for all pages and instructions on implementing form validation on the Sign-Up page was generated using ChatGPT.
 - The icons used in the footer were sourced from Font Awesome.
 
 ## 10.2 Media
 - The presentation images used in the Landing Page section were sourced from Canva.com.
 - Any other media assets used in this repository were either created by myself or obtained from royalty-free image repositories such as Pinterest, Google Images, or Pexels.
 - The video in the welcome article section was sourced from the Criterion Channel Teaser on YouTube.
-- The photos used on the home and sign up pages are from open-source sites like Google Free Pictures and Pinterest.
+- The photos used on the home and sign-up pages are from open-source sites like Google Free Pictures and Pinterest.
 - The images used for the gallery page were obtained from Pexels.
 
 We would like to express our gratitude to all sources, platforms, and contributors for their valuable contributions to this project.
