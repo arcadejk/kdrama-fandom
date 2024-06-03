@@ -226,7 +226,8 @@ During the testing phase, I ensured the codebase adhered to best practices and s
 
 - **Accessibility:** Accessibility is a crucial aspect of web development. To ensure inclusivity, I verified that the chosen colors and fonts are easy to read and accessible. This was accomplished by running the website through Lighthouse in the browser's developer tools.
 
-  ![image](https://github.com/arcadejk/kdrama-fandom/assets/157130011/adfe1e6a-ec78-4bee-9bce-7807d72a8969)
+  ![image](https://github.com/arcadejk/kdrama-fandom/assets/157130011/8ee1f79e-023b-49d3-a134-816161047b27)
+
 
 
 #### 8.2 Test Cases
